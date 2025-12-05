@@ -131,12 +131,6 @@ Token usage reports
 
 Planner comparison metrics
 
-📄 Citation
-
-If you use this repository, please cite the Sensors journal submission draft:
-
-Das, M., & Hussain, Z. Latency-Aware Benchmarking of Large Language Models for Natural-Language Robot Navigation in ROS 2, 2025 (under review).
-
 🤝 Contact
 
 Author: Murat Das
