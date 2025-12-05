@@ -130,11 +130,3 @@ Success plots
 Token usage reports
 
 Planner comparison metrics
-
-🤝 Contact
-
-Author: Murat Das
-Email: dasmuratr@gmail.com
-
-Supervisor: Dr. Zawar Hussain
-Sydney Polytechnic Institute – Data Science & AI Faculty
