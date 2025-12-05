@@ -14,6 +14,7 @@ Latency, parsing accuracy, path efficiency, and task success rate
 This is one of the first reproducible multi-LLM + multi-planner benchmarks in a ROS 2 navigation pipeline using a TurtleBot4 simulation.
 
 📌 Repository Structure
+```bash
 ├── src/
 │   ├── llm_interface/
 │   ├── nav2_planner_profiles/
@@ -23,12 +24,16 @@ This is one of the first reproducible multi-LLM + multi-planner benchmarks in a 
 │   ├── latency/
 │   ├── success/
 │   ├── tokens/
+│   └── planner_comparison/
 ├── docs/
 │   ├── project_proposal.pdf
 │   ├── literature_review.pdf
 │   └── sensors_paper_draft.pdf
 └── README.md
+```
 
+
+```bash
 🧠 System Architecture
 Natural Language Input
         ↓
@@ -41,6 +46,8 @@ ROS2 Node (goal publisher)
 Nav2 Local Planner (DWB / TEB / RPP)
         ↓
 TurtleBot4 Navigation in Gazebo
+```
+
 
 🔧 Installation
 1. Install ROS 2 Humble
