@@ -1,0 +1,59 @@
+prompt:
+  system: >
+    You are a planner that converts a short natural-language instruction into a JSON object
+    with fields: intent (string), goal {x: float, y: float}, note (string).
+    Respond ONLY with valid compact JSON.
+    If the command is unclear or the target is unknown, return
+    {"intent":"clarify","goal":{"x":0,"y":0},"note":"reason"}.
+    Use Known objects and Item hints to choose the correct location.
+    If the user indicates a need (e.g., "I'm thirsty") and an item in Item hints satisfies it (e.g., water),
+    plan to the location mapped by that item.
+
+  user_template: >
+    Map: warehouse_a
+    Known objects: {objects}
+    Item hints (item -> object): {item_hints}
+    Command: "{command}"
+
+tokens:
+  max_input: 600
+  max_output: 200
+
+models:
+  premium:
+    - id: openai/gpt-5
+      max_calls: 250
+    - id: openai/gpt-5-chat
+      max_calls: 250
+    - id: openai/gpt-4o
+      max_calls: 150
+    - id: anthropic/claude-3.7-sonnet
+      max_calls: 150
+    - id: google/gemini-2.5-pro
+      max_calls: 100
+
+  mid:
+    - id: mistralai/mistral-large-2411
+      max_calls: 250
+    - id: qwen/qwen-2.5-72b-instruct
+      max_calls: 250
+    - id: deepseek/deepseek-chat-v3.1
+      max_calls: 250
+
+  open_baseline:
+    - id: meta-llama/llama-3.3-70b-instruct
+      max_calls: 250
+    - id: mistralai/mistral-7b-instruct
+      max_calls: 250
+
+  legacy_baseline:
+    - id: openai/gpt-3.5-turbo-0613
+      max_calls: 250
+    - id: openai/gpt-3.5-turbo
+      max_calls: 250
+
+  optional_reasoning:
+    - id: openai/o4-mini
+      max_calls: 150
+    - id: deepseek/deepseek-r1
+      max_calls: 250

@@ -1,0 +1,15 @@
+model,avg_latency,std_latency,total_calls,success_rate,avg_tokens_in,avg_tokens_out,avg_tokens_total,file
+anthropic/claude-3.7-sonnet,3.209,0.5246732316404182,2,100.0,91.5,34.0,125.5,results.csv
+deepseek/deepseek-chat-v3.1,2.201,0.6519524522539967,2,100.0,84.0,29.5,113.5,results.csv
+deepseek/deepseek-r1,3.63,1.528764860925316,2,100.0,84.0,197.5,281.5,results.csv
+google/gemini-2.5-pro,9.2715,0.7544829355260463,2,100.0,78.5,728.0,806.5,results.csv
+meta-llama/llama-3.3-70b-instruct,3.9935,3.475429829531881,2,100.0,92.0,21.0,113.0,results.csv
+mistralai/mistral-7b-instruct,1.7785,0.6385174234114525,2,100.0,95.5,35.5,131.0,results.csv
+mistralai/mistral-large-2411,2.8675,1.7373613613753474,2,100.0,94.0,53.5,147.5,results.csv
+openai/gpt-3.5-turbo,0.8394999999999999,0.009192388155425087,2,100.0,88.0,20.5,108.5,results.csv
+openai/gpt-3.5-turbo-0613,1.6385,0.0021213203435596446,2,100.0,88.0,20.5,108.5,results.csv
+openai/gpt-4o,1.0965,0.22273863607376249,2,100.0,87.5,25.5,113.0,results.csv
+openai/gpt-5,11.718499999999999,2.1347553724021875,2,100.0,86.5,553.5,640.0,results.csv
+openai/gpt-5-chat,1.077,0.07636753236814721,2,100.0,87.5,23.0,110.5,results.csv
+openai/o4-mini,5.2445,0.6031620843521251,2,100.0,86.5,319.0,405.5,results.csv
+qwen/qwen-2.5-72b-instruct,1.9455,0.7247844507162112,2,100.0,90.0,23.5,113.5,results.csv

@@ -1,0 +1,231 @@
+"timestamp","model","command","latency_s","parsed_ok","tokens_in","tokens_out","tokens_total","json","raw"
+"2025-08-28T18:29:29","openai/gpt-5","Go to the charging station","11.467","1","86","619","705","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Need the charging station location (coordinates or unique ID) to navigate.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Need the charging station location (coordinates or unique ID) to navigate.""}"
+"2025-08-28T18:29:42","openai/gpt-5","Go to the charging station","13.62","1","86","489","575","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station location unknown; provide coordinates or station name/ID""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station location unknown; provide coordinates or station name/ID""}"
+"2025-08-28T18:29:50","openai/gpt-5","Go to the charging station","7.986","1","86","359","445","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified; please provide coordinates or identify which station.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified; please provide coordinates or identify which station.""}"
+"2025-08-28T18:30:12","openai/gpt-5","Move to the docking station","10.153","1","86","429","515","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Docking station location unknown. Provide x,y coordinates or a known location identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Docking station location unknown. Provide x,y coordinates or a known location identifier.""}"
+"2025-08-28T18:30:20","openai/gpt-5","Move to the docking station","8.096","1","86","359","445","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station location unknown; please provide its coordinates or map identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station location unknown; please provide its coordinates or map identifier.""}"
+"2025-08-28T18:30:27","openai/gpt-5","Move to the docking station","7.04","1","86","296","382","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please provide the docking station location or ID; no dock coordinates are known.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Please provide the docking station location or ID; no dock coordinates are known.""}"
+"2025-08-28T18:30:44","openai/gpt-5","Go to the table","7.427","1","85","427","512","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target: 'the table' not located. Provide coordinates or a unique identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target: 'the table' not located. Provide coordinates or a unique identifier.""}"
+"2025-08-28T18:30:55","openai/gpt-5","Go to the table","10.855","1","85","428","513","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination unclear—no coordinates or unique table specified. Please provide x,y or identify the table.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination unclear—no coordinates or unique table specified. Please provide x,y or identify the table.""}"
+"2025-08-28T18:31:05","openai/gpt-5","Go to the table","9.933","1","85","497","582","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Ambiguous: 'table' not located. Please specify which table or provide its coordinates/identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Ambiguous: 'table' not located. Please specify which table or provide its coordinates/identifier.""}"
+"2025-08-28T18:31:35","openai/gpt-5","Go to the foldable chair","8.766","1","87","367","454","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Unknown location for 'foldable chair'. Please specify which one and provide coordinates or mark it on the map.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Unknown location for 'foldable chair'. Please specify which one and provide coordinates or mark it on the map.""}"
+"2025-08-28T18:31:50","openai/gpt-5","Go to the foldable chair","14.768","1","87","493","580","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Ambiguous target 'foldable chair'; please provide coordinates or specify which one.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Ambiguous target 'foldable chair'; please provide coordinates or specify which one.""}"
+"2025-08-28T18:31:59","openai/gpt-5","Go to the foldable chair","8.487","1","87","296","383","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Missing location for 'foldable chair'. Provide coordinates or a unique reference.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Missing location for 'foldable chair'. Provide coordinates or a unique reference.""}"
+"2025-08-28T18:32:16","openai/gpt-5","Head to the shelf near entry","12.106","1","87","489","576","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous: which entry and which shelf? Provide coordinates or a landmark ID.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous: which entry and which shelf? Provide coordinates or a landmark ID.""}"
+"2025-08-28T18:32:31","openai/gpt-5","Head to the shelf near entry","15.053","1","87","490","577","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which entry do you mean, and what are the coordinates or ID of the shelf?""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which entry do you mean, and what are the coordinates or ID of the shelf?""}"
+"2025-08-28T18:32:44","openai/gpt-5","Head to the shelf near entry","13.006","1","87","560","647","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous location: 'shelf near entry'. Which entry and which shelf? Provide coordinates or a unique label.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous location: 'shelf near entry'. Which entry and which shelf? Provide coordinates or a unique label.""}"
+"2025-08-28T18:32:49","anthropic/claude-3.7-sonnet","Go to the charging station","2.777","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-28T18:32:52","anthropic/claude-3.7-sonnet","Go to the charging station","3.25","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-28T18:32:55","anthropic/claude-3.7-sonnet","Go to the charging station","2.97","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-28T18:33:01","anthropic/claude-3.7-sonnet","Move to the docking station","2.562","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-28T18:33:04","anthropic/claude-3.7-sonnet","Move to the docking station","3.587","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-28T18:33:06","anthropic/claude-3.7-sonnet","Move to the docking station","2.234","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-28T18:33:11","anthropic/claude-3.7-sonnet","Go to the table","1.682","1","88","34","122","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table. Need to determine exact coordinates.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table. Need to determine exact coordinates.""}"
+"2025-08-28T18:33:14","anthropic/claude-3.7-sonnet","Go to the table","2.867","1","88","37","125","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need to know which table or its location""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need to know which table or its location""}"
+"2025-08-28T18:33:17","anthropic/claude-3.7-sonnet","Go to the table","2.491","1","88","37","125","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need to know which table or its location""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need to know which table or its location""}"
+"2025-08-28T18:33:22","anthropic/claude-3.7-sonnet","Go to the foldable chair","2.673","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-28T18:33:23","anthropic/claude-3.7-sonnet","Go to the foldable chair","1.587","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-28T18:33:27","anthropic/claude-3.7-sonnet","Go to the foldable chair","3.474","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-28T18:33:33","anthropic/claude-3.7-sonnet","Head to the shelf near entry","2.97","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-28T18:33:36","anthropic/claude-3.7-sonnet","Head to the shelf near entry","3.19","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-28T18:33:39","anthropic/claude-3.7-sonnet","Head to the shelf near entry","2.721","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-28T18:33:58","google/gemini-2.5-pro","Go to the charging station","12.378","1","77","1054","1131","{""intent"": ""charge"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the charging station""}","```json
+{""intent"":""charge"",""goal"":{""x"":0,""y"":0},""note"":""Go to the charging station""}
+```"
+"2025-08-28T18:34:11","google/gemini-2.5-pro","Go to the charging station","12.289","1","77","1054","1131","{""intent"": ""charge"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the charging station""}","```json
+{""intent"":""charge"",""goal"":{""x"":0,""y"":0},""note"":""Go to the charging station""}
+```"
+"2025-08-28T18:34:20","google/gemini-2.5-pro","Go to the charging station","9.1","1","77","838","915","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I do not know the location of the charging station.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I do not know the location of the charging station.""}
+```"
+"2025-08-28T18:34:36","google/gemini-2.5-pro","Move to the docking station","8.14","1","77","665","742","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the coordinates for the docking station.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the coordinates for the docking station.""}"
+"2025-08-28T18:34:48","google/gemini-2.5-pro","Move to the docking station","11.674","1","77","875","952","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I need the coordinates for the docking station.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I need the coordinates for the docking station.""}
+```"
+"2025-08-28T18:34:58","google/gemini-2.5-pro","Move to the docking station","10.445","1","77","911","988","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","```json
+{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""docking station""}
+```"
+"2025-08-28T18:35:16","google/gemini-2.5-pro","Go to the table","9.062","1","76","709","785","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous destination. Please specify which table or provide coordinates.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous destination. Please specify which table or provide coordinates.""}
+```"
+"2025-08-28T18:35:26","google/gemini-2.5-pro","Go to the table","9.985","1","76","709","785","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous destination. Please specify which table or provide coordinates.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous destination. Please specify which table or provide coordinates.""}
+```"
+"2025-08-28T18:35:34","google/gemini-2.5-pro","Go to the table","7.883","1","76","593","669","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know where 'the table' is.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know where 'the table' is.""}"
+"2025-08-28T18:35:56","google/gemini-2.5-pro","Go to the foldable chair","10.547","1","77","845","922","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location of 'the foldable chair' is unknown.""}","{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""The location of 'the foldable chair' is unknown.""}"
+"2025-08-28T18:36:06","google/gemini-2.5-pro","Go to the foldable chair","10.239","1","77","831","908","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the location of 'the foldable chair'.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the location of 'the foldable chair'.""}
+```"
+"2025-08-28T18:36:15","google/gemini-2.5-pro","Go to the foldable chair","8.655","1","77","699","776","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair""}","{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair""}"
+"2025-08-28T18:36:33","google/gemini-2.5-pro","Head to the shelf near entry","7.679","1","78","631","709","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location 'shelf near entry' is ambiguous. Please be more specific.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location 'shelf near entry' is ambiguous. Please be more specific.""}"
+"2025-08-28T18:36:41","google/gemini-2.5-pro","Head to the shelf near entry","7.271","1","78","510","588","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which shelf and which entry?""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which shelf and which entry?""}
+```"
+"2025-08-28T18:36:48","google/gemini-2.5-pro","Head to the shelf near entry","7.014","1","78","510","588","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which shelf and which entry?""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which shelf and which entry?""}
+```"
+"2025-08-28T18:36:51","mistralai/mistral-large-2411","Go to the charging station","1.92","1","91","47","138","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0.0,""y"":0.0},
+  ""note"": ""charging station""
+}
+```"
+"2025-08-28T18:36:53","mistralai/mistral-large-2411","Go to the charging station","1.356","1","91","47","138","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0.0,""y"":0.0},
+  ""note"": ""charging station""
+}
+```"
+"2025-08-28T18:36:55","mistralai/mistral-large-2411","Go to the charging station","1.844","1","91","50","141","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""charging station""
+}
+```"
+"2025-08-28T18:36:57","mistralai/mistral-large-2411","Move to the docking station","1.433","1","92","51","143","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-28T18:36:59","mistralai/mistral-large-2411","Move to the docking station","1.331","1","92","44","136","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0,""y"":0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-28T18:37:00","mistralai/mistral-large-2411","Move to the docking station","1.299","1","92","51","143","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-28T18:37:03","mistralai/mistral-large-2411","Go to the table","1.347","1","90","47","137","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination is the table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""Destination is the table""
+}
+```"
+"2025-08-28T18:37:04","mistralai/mistral-large-2411","Go to the table","1.276","1","90","44","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""table""
+}
+```"
+"2025-08-28T18:37:06","mistralai/mistral-large-2411","Go to the table","1.364","1","90","47","137","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""destination is the table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""destination is the table""
+}
+```"
+"2025-08-28T18:37:09","mistralai/mistral-large-2411","Go to the foldable chair","1.434","1","92","49","141","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Locate the foldable chair""}","```json
+{
+  ""intent"": ""navigate"",
+  ""goal"": {""x"": 0, ""y"":0},
+  ""note"": ""Locate the foldable chair""
+}
+```"
+"2025-08-28T18:37:10","mistralai/mistral-large-2411","Go to the foldable chair","1.625","1","92","43","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0,""y"":0},
+  ""note"": ""foldable chair""
+}
+```"
+"2025-08-28T18:37:12","mistralai/mistral-large-2411","Go to the foldable chair","1.451","1","92","46","138","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""foldable chair""
+}
+```"
+"2025-08-28T18:37:15","mistralai/mistral-large-2411","Head to the shelf near entry","1.35","1","92","49","141","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 2.0}, ""note"": ""Location of shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1.0,""y"":2.0},
+  ""note"": ""Location of shelf near entry""
+}
+```"
+"2025-08-28T18:37:16","mistralai/mistral-large-2411","Head to the shelf near entry","1.516","1","92","45","137","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""Location: shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1,""y"":1},
+  ""note"": ""Location: shelf near entry""
+}
+```"
+"2025-08-28T18:37:18","mistralai/mistral-large-2411","Head to the shelf near entry","1.433","1","92","45","137","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""Location: shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1,""y"":1},
+  ""note"": ""Location: shelf near entry""
+}
+```"
+"2025-08-28T18:37:24","qwen/qwen-2.5-72b-instruct","Go to the charging station","4.886","1","89","29","118","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location assumed""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location assumed""}"
+"2025-08-28T18:37:28","qwen/qwen-2.5-72b-instruct","Go to the charging station","4.257","1","89","29","118","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location assumed""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location assumed""}"
+"2025-08-28T18:37:30","qwen/qwen-2.5-72b-instruct","Go to the charging station","1.646","1","89","27","116","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location""}"
+"2025-08-28T18:37:33","qwen/qwen-2.5-72b-instruct","Move to the docking station","2.222","1","89","24","113","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates required""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates required""}"
+"2025-08-28T18:37:35","qwen/qwen-2.5-72b-instruct","Move to the docking station","1.561","1","89","25","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates assumed as origin""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates assumed as origin""}"
+"2025-08-28T18:37:36","qwen/qwen-2.5-72b-instruct","Move to the docking station","1.293","1","89","30","119","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates assumed as origin (0,0)""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates assumed as origin (0,0)""}"
+"2025-08-28T18:37:41","qwen/qwen-2.5-72b-instruct","Go to the table","3.278","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.0}, ""note"": ""Assuming table is located at coordinates 1.5, 3.0""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.0},""note"":""Assuming table is located at coordinates 1.5, 3.0""}"
+"2025-08-28T18:37:43","qwen/qwen-2.5-72b-instruct","Go to the table","1.739","1","88","37","125","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 2.0}, ""note"": ""Assuming table is at (1.5, 2.0)""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":2.0},""note"":""Assuming table is at (1.5, 2.0)""}"
+"2025-08-28T18:37:46","qwen/qwen-2.5-72b-instruct","Go to the table","2.867","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.0}, ""note"": ""Assuming table is located at coordinates 1.5, 3.0""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.0},""note"":""Assuming table is located at coordinates 1.5, 3.0""}"
+"2025-08-28T18:37:49","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","1.543","1","90","26","116","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need coordinates for the foldable chair""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Need coordinates for the foldable chair""}"
+"2025-08-28T18:37:52","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","2.761","1","90","28","118","{""intent"": ""move_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair's coordinates are unknown""}","{""intent"":""move_to_object"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair's coordinates are unknown""}"
+"2025-08-28T18:37:53","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","1.532","1","90","26","116","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""location of the foldable chair is unknown""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""location of the foldable chair is unknown""}"
+"2025-08-28T18:37:57","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","2.473","1","90","33","123","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-28T18:37:59","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","1.536","1","90","32","122","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-28T18:38:00","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","1.571","1","90","33","123","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-28T18:38:03","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.313","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-28T18:38:05","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.948","1","92","25","117","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-28T18:38:07","meta-llama/llama-3.3-70b-instruct","Go to the charging station","2.054","1","92","25","117","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-28T18:38:10","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.332","1","91","26","117","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0.0,""y"":0.0},""note"":""docking station""}"
+"2025-08-28T18:38:12","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.843","1","92","22","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""docking station""}"
+"2025-08-28T18:38:14","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.311","1","91","26","117","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0.0,""y"":0.0},""note"":""docking station""}"
+"2025-08-28T18:38:16","meta-llama/llama-3.3-70b-instruct","Go to the table","0.927","1","91","25","116","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-28T18:38:17","meta-llama/llama-3.3-70b-instruct","Go to the table","1.201","1","90","25","115","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-28T18:38:19","meta-llama/llama-3.3-70b-instruct","Go to the table","1.413","1","90","25","115","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-28T18:38:22","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","1.193","1","92","27","119","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, provide coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, provide coordinates""}"
+"2025-08-28T18:38:23","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","1.494","1","92","28","120","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-28T18:38:25","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","2.126","1","92","27","119","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-28T18:38:28","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","1.42","1","92","25","117","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-28T18:38:29","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","1.251","1","93","25","118","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-28T18:38:31","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","1.473","1","93","25","118","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-28T18:38:35","mistralai/mistral-7b-instruct","Go to the charging station","2.133","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-28T18:38:36","mistralai/mistral-7b-instruct","Go to the charging station","1.229","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-28T18:38:38","mistralai/mistral-7b-instruct","Go to the charging station","1.82","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-28T18:38:40","mistralai/mistral-7b-instruct","Move to the docking station","1.232","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's coordinates are assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's coordinates are assumed to be (0,0) in this context""}"
+"2025-08-28T18:38:42","mistralai/mistral-7b-instruct","Move to the docking station","2.047","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's location is assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's location is assumed to be (0,0) in this context""}"
+"2025-08-28T18:38:44","mistralai/mistral-7b-instruct","Move to the docking station","1.843","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's coordinates are assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's coordinates are assumed to be (0,0) in this context""}"
+"2025-08-28T18:38:46","mistralai/mistral-7b-instruct","Go to the table","1.229","1","91","38","129","{""intent"": ""moveToTable"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming the table is the origin point (0,0)""}"," {""intent"":""moveToTable"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Assuming the table is the origin point (0,0)""}"
+"2025-08-28T18:38:48","mistralai/mistral-7b-instruct","Go to the table","1.946","1","91","38","129","{""intent"": ""moveToTable"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming the table is the origin point (0,0)""}"," {""intent"":""moveToTable"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Assuming the table is the origin point (0,0)""}"
+"2025-08-28T18:38:50","mistralai/mistral-7b-instruct","Go to the table","1.945","1","91","38","129","{""intent"": ""moveToTable"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming the table is the origin point (0,0)""}"," {""intent"":""moveToTable"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Assuming the table is the origin point (0,0)""}"
+"2025-08-28T18:38:53","mistralai/mistral-7b-instruct","Go to the foldable chair","1.307","1","93","55","148","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"
+"2025-08-28T18:38:55","mistralai/mistral-7b-instruct","Go to the foldable chair","1.453","1","93","47","140","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is in the room and the '1' represents the height from the ground where the chair is located""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is in the room and the '1' represents the height from the ground where the chair is located""}"
+"2025-08-28T18:38:57","mistralai/mistral-7b-instruct","Go to the foldable chair","2.104","1","93","58","151","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is in the room and the '1' represents the position of the foldable chair in the room, starting from 0 at the leftmost edge.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is in the room and the '1' represents the position of the foldable chair in the room, starting from 0 at the leftmost edge.""}"
+"2025-08-28T18:38:59","mistralai/mistral-7b-instruct","Head to the shelf near entry","1.394","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-28T18:39:00","mistralai/mistral-7b-instruct","Head to the shelf near entry","0.828","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-28T18:39:01","mistralai/mistral-7b-instruct","Head to the shelf near entry","1.357","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-28T18:39:19","deepseek/deepseek-r1","Go to the charging station","9.639","1","84","242","326","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the coordinates of the charging station""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Please specify the coordinates of the charging station""}"
+"2025-08-28T18:39:33","deepseek/deepseek-r1","Go to the charging station","14.297","1","83","425","508","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station coordinates assumed at origin; confirm if different""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Charging station coordinates assumed at origin; confirm if different""}"
+"2025-08-28T18:39:41","deepseek/deepseek-r1","Go to the charging station","7.884","1","83","397","480","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified""}"
+"2025-08-28T18:39:55","deepseek/deepseek-r1","Move to the docking station","9.673","1","84","275","359","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming docking station is at origin; provide coordinates if different""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Assuming docking station is at origin; provide coordinates if different""}"
+"2025-08-28T18:40:11","deepseek/deepseek-r1","Move to the docking station","15.21","1","83","867","950","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Docking station location""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Docking station location""}"
+"2025-08-28T18:40:15","deepseek/deepseek-r1","Move to the docking station","4.06","1","83","270","353","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates not specified""}"
+"2025-08-28T18:40:28","deepseek/deepseek-r1","Go to the table","7.066","1","83","187","270","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of the table (coordinates or description).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Please specify the location of the table (coordinates or description).""}"
+"2025-08-28T18:40:38","deepseek/deepseek-r1","Go to the table","10.24","1","82","319","401","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Table location not specified.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Table location not specified.""}"
+"2025-08-28T18:40:49","deepseek/deepseek-r1","Go to the table","10.856","1","82","309","391","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Table location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Table location not specified""}"
+"2025-08-28T18:40:58","deepseek/deepseek-r1","Go to the foldable chair","3.979","1","85","196","281","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the foldable chair not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location of the foldable chair not specified""}"
+"2025-08-28T18:41:08","deepseek/deepseek-r1","Go to the foldable chair","9.999","1","85","276","361","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Coordinates of the foldable chair are required""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Coordinates of the foldable chair are required""}"
+"2025-08-28T18:41:12","deepseek/deepseek-r1","Go to the foldable chair","4.664","1","84","261","345","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""No coordinates provided for the foldable chair's location""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""No coordinates provided for the foldable chair's location""}"
+"2025-08-28T18:41:41","deepseek/deepseek-r1","Head to the shelf near entry","6.963","1","84","293","377","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the exact location or coordinates of the shelf near the entry.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Please specify the exact location or coordinates of the shelf near the entry.""}"
+"2025-08-28T18:41:49","deepseek/deepseek-r1","Head to the shelf near entry","8.396","1","85","206","291","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The exact coordinates of the shelf near the entry are unspecified. Please provide more details or landmarks.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The exact coordinates of the shelf near the entry are unspecified. Please provide more details or landmarks.""}"
+"2025-08-28T18:41:55","deepseek/deepseek-r1","Head to the shelf near entry","6.554","1","84","273","357","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specific coordinates for 'shelf near entry' are unknown. Please provide more location details.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specific coordinates for 'shelf near entry' are unknown. Please provide more location details.""}"

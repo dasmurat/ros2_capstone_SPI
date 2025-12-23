@@ -1,0 +1,9 @@
+model,avg_latency,std_latency,total_calls,success_rate,avg_tokens_in,avg_tokens_out,avg_tokens_total,file
+anthropic/claude-3.7-sonnet,2.8916000000000004,0.435339276558279,50,100.0,90.7,34.08,124.78,results_medium.csv
+deepseek/deepseek-r1,11.3158,8.54002372266456,50,100.0,84.12,328.52,412.64,results_medium.csv
+google/gemini-2.5-pro,10.00042,2.8093217795077017,50,100.0,77.6,718.92,796.52,results_medium.csv
+meta-llama/llama-3.3-70b-instruct,2.18596,1.061768047231809,50,100.0,92.46,26.08,118.54,results_medium.csv
+mistralai/mistral-7b-instruct,2.1789199999999997,0.8815099948499778,50,90.0,93.6,36.56,130.16,results_medium.csv
+mistralai/mistral-large-2411,2.21974,1.3843295262121866,50,100.0,92.6,50.84,143.44,results_medium.csv
+openai/gpt-5,11.813979999999999,4.195679903988708,50,100.0,86.7,493.02,579.72,results_medium.csv
+qwen/qwen-2.5-72b-instruct,2.07978,0.8459358370515834,50,100.0,89.9,29.0,118.9,results_medium.csv

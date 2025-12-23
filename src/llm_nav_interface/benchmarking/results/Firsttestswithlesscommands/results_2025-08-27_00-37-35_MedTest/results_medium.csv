@@ -1,0 +1,801 @@
+"timestamp","model","command","latency_s","parsed_ok","tokens_in","tokens_out","tokens_total","json","raw"
+"2025-08-27T00:37:56","openai/gpt-5","Go to the charging station","7.46","1","86","414","500","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""missing coordinates for charging station""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""missing coordinates for charging station""}"
+"2025-08-27T00:38:02","openai/gpt-5","Go to the charging station","5.426","1","86","231","317","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified. Provide target coordinates or station ID/name.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified. Provide target coordinates or station ID/name.""}"
+"2025-08-27T00:38:24","openai/gpt-5","Go to the charging station","22.916","1","86","495","581","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Missing coordinates or unique ID for 'charging station'; please provide target (x,y) or specify which station.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Missing coordinates or unique ID for 'charging station'; please provide target (x,y) or specify which station.""}"
+"2025-08-27T00:38:43","openai/gpt-5","Go to the charging station","18.367","1","86","679","765","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified; please provide coordinates or identify which station.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified; please provide coordinates or identify which station.""}"
+"2025-08-27T00:38:52","openai/gpt-5","Go to the charging station","9.596","1","86","359","445","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location unspecified—please provide target coordinates or the station name.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location unspecified—please provide target coordinates or the station name.""}"
+"2025-08-27T00:39:14","openai/gpt-5","Move to the docking station","12.206","1","86","300","386","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Docking station location not specified. Provide coordinates or station ID/label.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Docking station location not specified. Provide coordinates or station ID/label.""}"
+"2025-08-27T00:39:25","openai/gpt-5","Move to the docking station","11.452","1","86","489","575","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station location unknown. Provide its (x,y) coordinates or identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station location unknown. Provide its (x,y) coordinates or identifier.""}"
+"2025-08-27T00:39:35","openai/gpt-5","Move to the docking station","9.829","1","86","422","508","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station location unknown. Please provide its coordinates or identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station location unknown. Please provide its coordinates or identifier.""}"
+"2025-08-27T00:39:41","openai/gpt-5","Move to the docking station","6.042","1","86","231","317","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station location not specified. Please provide its coordinates or ID.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station location not specified. Please provide its coordinates or ID.""}"
+"2025-08-27T00:39:51","openai/gpt-5","Move to the docking station","10.343","1","86","488","574","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station location not provided; specify coordinates or a known station ID.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station location not provided; specify coordinates or a known station ID.""}"
+"2025-08-27T00:40:10","openai/gpt-5","Navigate to the table","9.02","1","85","422","507","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target; specify which table and its coordinates or identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target; specify which table and its coordinates or identifier.""}"
+"2025-08-27T00:40:21","openai/gpt-5","Navigate to the table","10.864","1","85","500","585","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target: no coordinates or unique table specified. Provide the table’s position (x,y) or a unique identifier/description.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target: no coordinates or unique table specified. Provide the table’s position (x,y) or a unique identifier/description.""}"
+"2025-08-27T00:40:29","openai/gpt-5","Navigate to the table","8.279","1","85","492","577","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Target 'table' is ambiguous; please provide coordinates or a unique identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Target 'table' is ambiguous; please provide coordinates or a unique identifier.""}"
+"2025-08-27T00:40:38","openai/gpt-5","Navigate to the table","9.011","1","85","296","381","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination 'table' is ambiguous. Please specify which table or provide coordinates.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination 'table' is ambiguous. Please specify which table or provide coordinates.""}"
+"2025-08-27T00:40:48","openai/gpt-5","Navigate to the table","10.139","1","85","432","517","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Ambiguous target: 'the table' has no known location. Provide coordinates or an identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Ambiguous target: 'the table' has no known location. Provide coordinates or an identifier.""}"
+"2025-08-27T00:41:10","openai/gpt-5","Head to the shelf near entry","9.831","1","87","434","521","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target: 'shelf near entry' lacks coordinates; specify which entry and the shelf’s location or provide coordinates.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target: 'shelf near entry' lacks coordinates; specify which entry and the shelf’s location or provide coordinates.""}"
+"2025-08-27T00:41:26","openai/gpt-5","Head to the shelf near entry","15.361","1","87","824","911","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Ambiguous: 'shelf near entry' not uniquely identified. Specify which entry and which shelf, or provide coordinates/waypoint.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Ambiguous: 'shelf near entry' not uniquely identified. Specify which entry and which shelf, or provide coordinates/waypoint.""}"
+"2025-08-27T00:41:32","openai/gpt-5","Head to the shelf near entry","6.255","1","87","369","456","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous destination: multiple entries and shelves. Please specify which entry and shelf, or provide goal coordinates (x,y).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous destination: multiple entries and shelves. Please specify which entry and shelf, or provide goal coordinates (x,y).""}"
+"2025-08-27T00:41:45","openai/gpt-5","Head to the shelf near entry","12.942","1","87","619","706","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous location: which entry and which shelf? Provide exact coordinates or a unique label.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous location: which entry and which shelf? Provide exact coordinates or a unique label.""}"
+"2025-08-27T00:41:57","openai/gpt-5","Head to the shelf near entry","11.73","1","87","690","777","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination unclear: 'shelf near entry' lacks coordinates or unique ID. Specify which entry/shelf or provide x,y.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination unclear: 'shelf near entry' lacks coordinates or unique ID. Specify which entry/shelf or provide x,y.""}"
+"2025-08-27T00:42:17","openai/gpt-5","Approach the person standing","12.468","1","86","297","383","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target: need the standing person's identity or location (coordinates or selection).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target: need the standing person's identity or location (coordinates or selection).""}"
+"2025-08-27T00:42:33","openai/gpt-5","Approach the person standing","15.657","1","86","690","776","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Ambiguous target—no coordinates or identifier for the standing person. Please specify which person and their location.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Ambiguous target—no coordinates or identifier for the standing person. Please specify which person and their location.""}"
+"2025-08-27T00:42:43","openai/gpt-5","Approach the person standing","10.482","1","86","428","514","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which person should I approach? Provide their location/coordinates or identifier and the desired stopping distance.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which person should I approach? Provide their location/coordinates or identifier and the desired stopping distance.""}"
+"2025-08-27T00:42:56","openai/gpt-5","Approach the person standing","13.21","1","86","561","647","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which person should I approach? Provide the target’s location (x,y) or a unique description/direction and distance.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which person should I approach? Provide the target’s location (x,y) or a unique description/direction and distance.""}"
+"2025-08-27T00:43:09","openai/gpt-5","Approach the person standing","12.904","1","86","497","583","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which standing person should I approach? Provide their (x,y) location or confirm I should approach the nearest standing person.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which standing person should I approach? Provide their (x,y) location or confirm I should approach the nearest standing person.""}"
+"2025-08-27T00:43:29","openai/gpt-5","Go to the foldable chair","8.397","1","87","432","519","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Unknown location for 'foldable chair'. Please provide its coordinates or indicate which chair to approach.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Unknown location for 'foldable chair'. Please provide its coordinates or indicate which chair to approach.""}"
+"2025-08-27T00:43:34","openai/gpt-5","Go to the foldable chair","5.223","1","87","363","450","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location unknown. Please provide the foldable chair’s coordinates or a unique identifier/marker.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location unknown. Please provide the foldable chair’s coordinates or a unique identifier/marker.""}"
+"2025-08-27T00:43:49","openai/gpt-5","Go to the foldable chair","14.848","1","87","557","644","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Location of 'foldable chair' unknown; please provide coordinates or a landmark.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Location of 'foldable chair' unknown; please provide coordinates or a landmark.""}"
+"2025-08-27T00:43:58","openai/gpt-5","Go to the foldable chair","9.228","1","87","625","712","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Unknown location for 'foldable chair'. Please provide coordinates or a reference location, or confirm I should search for it.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Unknown location for 'foldable chair'. Please provide coordinates or a reference location, or confirm I should search for it.""}"
+"2025-08-27T00:44:09","openai/gpt-5","Go to the foldable chair","10.741","1","87","620","707","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Unknown location of 'foldable chair' or multiple instances. Provide coordinates or specify which one.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Unknown location of 'foldable chair' or multiple instances. Provide coordinates or specify which one.""}"
+"2025-08-27T00:44:39","openai/gpt-5","I'm thirsty, go to the table for water","14.372","1","90","690","780","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Ambiguous target: 'table' location unknown; provide x,y coordinates or specify which table for water.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Ambiguous target: 'table' location unknown; provide x,y coordinates or specify which table for water.""}"
+"2025-08-27T00:44:52","openai/gpt-5","I'm thirsty, go to the table for water","13.313","1","90","756","846","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target 'the table'—need coordinates or ID. Also confirm if I should bring the water back or only navigate there.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target 'the table'—need coordinates or ID. Also confirm if I should bring the water back or only navigate there.""}"
+"2025-08-27T00:45:16","openai/gpt-5","I'm thirsty, go to the table for water","24.055","1","90","550","640","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which table? Provide its (x,y) coordinates or identifier.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which table? Provide its (x,y) coordinates or identifier.""}"
+"2025-08-27T00:45:31","openai/gpt-5","I'm thirsty, go to the table for water","15.166","1","90","809","899","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Need the table's (x,y) coordinates to navigate.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Need the table's (x,y) coordinates to navigate.""}"
+"2025-08-27T00:45:55","openai/gpt-5","I'm thirsty, go to the table for water","23.553","1","90","825","915","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Missing table location. Provide goal coordinates (x,y) or a specific table label, and confirm if you want me to fetch the water or just navigate there.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Missing table location. Provide goal coordinates (x,y) or a specific table label, and confirm if you want me to fetch the water or just navigate there.""}"
+"2025-08-27T00:46:17","openai/gpt-5","Go to paracetamol","8.607","1","86","442","528","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Paracetamol is a product, not a location. Please specify the destination (coordinates or place name, e.g., pharmacy or medicine aisle).""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Paracetamol is a product, not a location. Please specify the destination (coordinates or place name, e.g., pharmacy or medicine aisle).""}"
+"2025-08-27T00:46:28","openai/gpt-5","Go to paracetamol","10.233","1","86","306","392","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Unknown destination 'paracetamol'; please provide a specific location or coordinates (e.g., aisle/shelf or map waypoint).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Unknown destination 'paracetamol'; please provide a specific location or coordinates (e.g., aisle/shelf or map waypoint).""}"
+"2025-08-27T00:46:39","openai/gpt-5","Go to paracetamol","11.265","1","86","558","644","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""'paracetamol' is not a known location. Please provide coordinates or a mapped waypoint/shelf name.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""'paracetamol' is not a known location. Please provide coordinates or a mapped waypoint/shelf name.""}"
+"2025-08-27T00:46:48","openai/gpt-5","Go to paracetamol","9.232","1","86","306","392","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Paracetamol is not a location. Please specify a destination (e.g., pharmacy, aisle/shelf, or coordinates).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Paracetamol is not a location. Please specify a destination (e.g., pharmacy, aisle/shelf, or coordinates).""}"
+"2025-08-27T00:46:56","openai/gpt-5","Go to paracetamol","7.766","1","86","306","392","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination 'paracetamol' is unclear. Provide coordinates or a known waypoint/aisle-shelf for paracetamol.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination 'paracetamol' is unclear. Provide coordinates or a known waypoint/aisle-shelf for paracetamol.""}"
+"2025-08-27T00:47:22","openai/gpt-5","Go to Panadol","14.992","1","85","562","647","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Unknown destination 'Panadol'. Provide coordinates or a specific location (aisle/shelf or map point).""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Unknown destination 'Panadol'. Provide coordinates or a specific location (aisle/shelf or map point).""}"
+"2025-08-27T00:47:34","openai/gpt-5","Go to Panadol","12.399","1","85","767","852","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination unclear: 'Panadol' is a product name. Provide the exact location or coordinates (e.g., aisle/shelf or map x,y) to navigate to.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Destination unclear: 'Panadol' is a product name. Provide the exact location or coordinates (e.g., aisle/shelf or map x,y) to navigate to.""}"
+"2025-08-27T00:47:47","openai/gpt-5","Go to Panadol","12.547","1","85","380","465","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""'Panadol' is a product, not a specific location. Please provide the destination location or coordinates (e.g., aisle/shelf or map coordinates).""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""'Panadol' is a product, not a specific location. Please provide the destination location or coordinates (e.g., aisle/shelf or map coordinates).""}"
+"2025-08-27T00:48:02","openai/gpt-5","Go to Panadol","15.156","1","85","563","648","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""'Panadol' is a product brand, not a known location. Please provide a specific destination name or coordinates.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""'Panadol' is a product brand, not a known location. Please provide a specific destination name or coordinates.""}"
+"2025-08-27T00:48:13","openai/gpt-5","Go to Panadol","10.957","1","85","369","454","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""'Panadol' is a product, not a known location. Please provide the aisle/shelf or coordinates to navigate to.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""'Panadol' is a product, not a known location. Please provide the aisle/shelf or coordinates to navigate to.""}"
+"2025-08-27T00:48:34","openai/gpt-5","Go to the foldable chair for medicine","7.925","1","89","309","398","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination unclear: no coordinates and 'foldable chair for medicine' is ambiguous. Please specify the exact chair or provide coordinates/landmark.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination unclear: no coordinates and 'foldable chair for medicine' is ambiguous. Please specify the exact chair or provide coordinates/landmark.""}"
+"2025-08-27T00:48:51","openai/gpt-5","Go to the foldable chair for medicine","17.41","1","89","497","586","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Which foldable chair do you mean and where is it located? Please provide coordinates or a landmark.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Which foldable chair do you mean and where is it located? Please provide coordinates or a landmark.""}"
+"2025-08-27T00:49:01","openai/gpt-5","Go to the foldable chair for medicine","10.302","1","89","440","529","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination 'foldable chair for medicine' is unclear. Which chair and where is it located? Please provide coordinates, room name, or a nearby landmark.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination 'foldable chair for medicine' is unclear. Which chair and where is it located? Please provide coordinates, room name, or a nearby landmark.""}"
+"2025-08-27T00:49:13","openai/gpt-5","Go to the foldable chair for medicine","11.264","1","89","458","547","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous target: 'foldable chair for medicine' lacks coordinates/unique reference. Provide the chair’s location (x,y) or a clear landmark/ID, and confirm the action after arrival (navigate only, pick up medicine, etc.).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous target: 'foldable chair for medicine' lacks coordinates/unique reference. Provide the chair’s location (x,y) or a clear landmark/ID, and confirm the action after arrival (navigate only, pick up medicine, etc.).""}"
+"2025-08-27T00:49:23","openai/gpt-5","Go to the foldable chair for medicine","9.958","1","89","502","591","{""intent"": ""clarify"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""'Foldable chair for medicine' is unclear and no coordinates provided. Please specify which chair and its location or exact coordinates.""}","{""intent"":""clarify"",""goal"":{""x"":0.0,""y"":0.0},""note"":""'Foldable chair for medicine' is unclear and no coordinates provided. Please specify which chair and its location or exact coordinates.""}"
+"2025-08-27T00:49:28","anthropic/claude-3.7-sonnet","Go to the charging station","2.72","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-27T00:49:31","anthropic/claude-3.7-sonnet","Go to the charging station","3.208","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-27T00:49:34","anthropic/claude-3.7-sonnet","Go to the charging station","2.834","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-27T00:49:37","anthropic/claude-3.7-sonnet","Go to the charging station","2.866","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-27T00:49:39","anthropic/claude-3.7-sonnet","Go to the charging station","2.356","1","89","27","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to charging station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to charging station""}"
+"2025-08-27T00:49:45","anthropic/claude-3.7-sonnet","Move to the docking station","2.663","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-27T00:49:48","anthropic/claude-3.7-sonnet","Move to the docking station","2.679","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-27T00:49:49","anthropic/claude-3.7-sonnet","Move to the docking station","1.623","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-27T00:49:52","anthropic/claude-3.7-sonnet","Move to the docking station","2.667","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-27T00:49:55","anthropic/claude-3.7-sonnet","Move to the docking station","2.862","1","90","29","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-27T00:50:01","anthropic/claude-3.7-sonnet","Navigate to the table","2.766","1","88","31","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need coordinates""}"
+"2025-08-27T00:50:04","anthropic/claude-3.7-sonnet","Navigate to the table","3.584","1","88","31","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need coordinates""}"
+"2025-08-27T00:50:07","anthropic/claude-3.7-sonnet","Navigate to the table","2.355","1","88","31","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need coordinates""}"
+"2025-08-27T00:50:10","anthropic/claude-3.7-sonnet","Navigate to the table","3.212","1","88","31","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need coordinates""}"
+"2025-08-27T00:50:13","anthropic/claude-3.7-sonnet","Navigate to the table","3.522","1","88","31","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the table, but need coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the table, but need coordinates""}"
+"2025-08-27T00:50:20","anthropic/claude-3.7-sonnet","Head to the shelf near entry","3.473","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-27T00:50:23","anthropic/claude-3.7-sonnet","Head to the shelf near entry","2.969","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-27T00:50:26","anthropic/claude-3.7-sonnet","Head to the shelf near entry","2.723","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-27T00:50:29","anthropic/claude-3.7-sonnet","Head to the shelf near entry","3.115","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-27T00:50:33","anthropic/claude-3.7-sonnet","Head to the shelf near entry","3.278","1","90","35","125","{""intent"": ""navigate"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Moving to the shelf located near the entrance""}","{""intent"":""navigate"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Moving to the shelf located near the entrance""}"
+"2025-08-27T00:50:39","anthropic/claude-3.7-sonnet","Approach the person standing","3.427","1","89","29","118","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving toward the person standing nearby""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Moving toward the person standing nearby""}"
+"2025-08-27T00:50:42","anthropic/claude-3.7-sonnet","Approach the person standing","3.583","1","89","29","118","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving toward the person standing nearby""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Moving toward the person standing nearby""}"
+"2025-08-27T00:50:45","anthropic/claude-3.7-sonnet","Approach the person standing","2.541","1","89","29","118","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving toward the person standing nearby""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Moving toward the person standing nearby""}"
+"2025-08-27T00:50:47","anthropic/claude-3.7-sonnet","Approach the person standing","2.477","1","89","29","118","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving toward the person standing nearby""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Moving toward the person standing nearby""}"
+"2025-08-27T00:50:51","anthropic/claude-3.7-sonnet","Approach the person standing","3.483","1","89","29","118","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving toward the person standing nearby""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Moving toward the person standing nearby""}"
+"2025-08-27T00:50:57","anthropic/claude-3.7-sonnet","Go to the foldable chair","3.256","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-27T00:50:59","anthropic/claude-3.7-sonnet","Go to the foldable chair","2.509","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-27T00:51:02","anthropic/claude-3.7-sonnet","Go to the foldable chair","2.402","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-27T00:51:04","anthropic/claude-3.7-sonnet","Go to the foldable chair","2.559","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-27T00:51:07","anthropic/claude-3.7-sonnet","Go to the foldable chair","2.868","1","91","30","121","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair""}"
+"2025-08-27T00:51:13","anthropic/claude-3.7-sonnet","I'm thirsty, go to the table for water","2.803","1","96","30","126","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the table to get water""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Go to the table to get water""}"
+"2025-08-27T00:51:15","anthropic/claude-3.7-sonnet","I'm thirsty, go to the table for water","2.317","1","96","30","126","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the table to get water""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Go to the table to get water""}"
+"2025-08-27T00:51:19","anthropic/claude-3.7-sonnet","I'm thirsty, go to the table for water","3.495","1","96","30","126","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the table to get water""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Go to the table to get water""}"
+"2025-08-27T00:51:21","anthropic/claude-3.7-sonnet","I'm thirsty, go to the table for water","2.678","1","96","30","126","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the table to get water""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Go to the table to get water""}"
+"2025-08-27T00:51:24","anthropic/claude-3.7-sonnet","I'm thirsty, go to the table for water","2.736","1","96","30","126","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the table to get water""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Go to the table to get water""}"
+"2025-08-27T00:51:31","anthropic/claude-3.7-sonnet","Go to paracetamol","3.003","1","91","55","146","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need to find the location of paracetamol. This is a medication, but I don't have specific coordinates for it in the store/pharmacy.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need to find the location of paracetamol. This is a medication, but I don't have specific coordinates for it in the store/pharmacy.""}"
+"2025-08-27T00:51:34","anthropic/claude-3.7-sonnet","Go to paracetamol","3.217","1","91","55","146","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need to find the location of paracetamol. This is a medication, but I don't have specific coordinates for it in the store/pharmacy.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need to find the location of paracetamol. This is a medication, but I don't have specific coordinates for it in the store/pharmacy.""}"
+"2025-08-27T00:51:37","anthropic/claude-3.7-sonnet","Go to paracetamol","3.234","1","91","55","146","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need to find the location of paracetamol. This is a medication, but I don't have specific coordinates for it in the store/pharmacy.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need to find the location of paracetamol. This is a medication, but I don't have specific coordinates for it in the store/pharmacy.""}"
+"2025-08-27T00:51:40","anthropic/claude-3.7-sonnet","Go to paracetamol","2.969","1","91","37","128","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need to find the location of paracetamol in the store""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need to find the location of paracetamol in the store""}"
+"2025-08-27T00:51:43","anthropic/claude-3.7-sonnet","Go to paracetamol","3.18","1","91","37","128","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need to find paracetamol location, but coordinates are unknown""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need to find paracetamol location, but coordinates are unknown""}"
+"2025-08-27T00:51:49","anthropic/claude-3.7-sonnet","Go to Panadol","2.682","1","90","48","138","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}"
+"2025-08-27T00:51:51","anthropic/claude-3.7-sonnet","Go to Panadol","2.643","1","90","48","138","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}"
+"2025-08-27T00:51:55","anthropic/claude-3.7-sonnet","Go to Panadol","3.481","1","90","48","138","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}"
+"2025-08-27T00:51:57","anthropic/claude-3.7-sonnet","Go to Panadol","2.278","1","90","48","138","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}"
+"2025-08-27T00:51:59","anthropic/claude-3.7-sonnet","Go to Panadol","2.026","1","90","48","138","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need more information about where Panadol is located. Panadol is a medication brand, not a location.""}"
+"2025-08-27T00:52:05","anthropic/claude-3.7-sonnet","Go to the foldable chair for medicine","2.76","1","93","34","127","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair where medicine is located""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair where medicine is located""}"
+"2025-08-27T00:52:08","anthropic/claude-3.7-sonnet","Go to the foldable chair for medicine","3.585","1","93","34","127","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair where medicine is located""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair where medicine is located""}"
+"2025-08-27T00:52:11","anthropic/claude-3.7-sonnet","Go to the foldable chair for medicine","2.866","1","93","34","127","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair where medicine is located""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair where medicine is located""}"
+"2025-08-27T00:52:14","anthropic/claude-3.7-sonnet","Go to the foldable chair for medicine","2.975","1","93","34","127","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair where medicine is located""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair where medicine is located""}"
+"2025-08-27T00:52:17","anthropic/claude-3.7-sonnet","Go to the foldable chair for medicine","3.072","1","93","34","127","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the foldable chair where medicine is located""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the foldable chair where medicine is located""}"
+"2025-08-27T00:52:41","google/gemini-2.5-pro","Go to the charging station","11.058","1","77","864","941","{""intent"": ""go_to_location"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""charging station""}","{""intent"":""go_to_location"",""goal"":{""x"":0,""y"":0},""note"":""charging station""}"
+"2025-08-27T00:52:49","google/gemini-2.5-pro","Go to the charging station","8.71","1","77","648","725","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I do not know the coordinates of the charging station.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I do not know the coordinates of the charging station.""}
+```"
+"2025-08-27T00:52:58","google/gemini-2.5-pro","Go to the charging station","8.7","1","77","737","814","{""intent"": ""go"", ""goal"": {""x"": 2.5, ""y"": -1.0}, ""note"": ""Go to the charging station""}","{""intent"":""go"",""goal"":{""x"":2.5,""y"":-1.0},""note"":""Go to the charging station""}"
+"2025-08-27T00:53:05","google/gemini-2.5-pro","Go to the charging station","7.271","1","77","470","547","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I do not know the coordinates of the charging station.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I do not know the coordinates of the charging station.""}"
+"2025-08-27T00:53:14","google/gemini-2.5-pro","Go to the charging station","8.498","1","77","598","675","{""intent"": ""go_to"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Navigating to the charging station.""}","```json
+{""intent"":""go_to"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Navigating to the charging station.""}
+```"
+"2025-08-27T00:53:44","google/gemini-2.5-pro","Move to the docking station","10.548","1","77","875","952","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I need the coordinates for the docking station.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I need the coordinates for the docking station.""}
+```"
+"2025-08-27T00:53:56","google/gemini-2.5-pro","Move to the docking station","11.674","1","77","880","957","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","```json
+{""intent"":""move"",""goal"":{""x"":0.0,""y"":0.0},""note"":""docking station""}
+```"
+"2025-08-27T00:54:04","google/gemini-2.5-pro","Move to the docking station","8.203","1","77","599","676","{""intent"": ""dock"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Move to the docking station""}","```json
+{""intent"":""dock"",""goal"":{""x"":0,""y"":0},""note"":""Move to the docking station""}
+```"
+"2025-08-27T00:54:15","google/gemini-2.5-pro","Move to the docking station","11.137","1","77","911","988","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","```json
+{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""docking station""}
+```"
+"2025-08-27T00:54:24","google/gemini-2.5-pro","Move to the docking station","8.614","1","77","680","757","{""intent"": ""dock"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Move to the docking station""}","```json
+{""intent"":""dock"",""goal"":{""x"":0,""y"":0},""note"":""Move to the docking station""}
+```"
+"2025-08-27T00:54:39","google/gemini-2.5-pro","Navigate to the table","8.117","1","76","618","694","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which table?""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which table?""}"
+"2025-08-27T00:54:46","google/gemini-2.5-pro","Navigate to the table","6.525","1","76","581","657","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which table?""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which table?""}
+```"
+"2025-08-27T00:54:52","google/gemini-2.5-pro","Navigate to the table","6.349","1","76","500","576","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location 'table' is ambiguous.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location 'table' is ambiguous.""}"
+"2025-08-27T00:55:01","google/gemini-2.5-pro","Navigate to the table","9.394","1","76","545","621","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of 'the table' is unknown.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location of 'the table' is unknown.""}
+```"
+"2025-08-27T00:55:11","google/gemini-2.5-pro","Navigate to the table","9.14","1","76","500","576","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location 'table' is ambiguous.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location 'table' is ambiguous.""}"
+"2025-08-27T00:55:27","google/gemini-2.5-pro","Head to the shelf near entry","8.699","1","78","579","657","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location is ambiguous""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location is ambiguous""}
+```"
+"2025-08-27T00:55:37","google/gemini-2.5-pro","Head to the shelf near entry","10.812","1","78","921","999","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Cannot resolve 'shelf near entry' to a specific coordinate.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Cannot resolve 'shelf near entry' to a specific coordinate.""}
+```"
+"2025-08-27T00:55:46","google/gemini-2.5-pro","Head to the shelf near entry","8.951","1","78","598","676","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location 'shelf near entry' is ambiguous.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location 'shelf near entry' is ambiguous.""}
+```"
+"2025-08-27T00:55:59","google/gemini-2.5-pro","Head to the shelf near entry","12.857","1","78","598","676","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location 'shelf near entry' is ambiguous.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location 'shelf near entry' is ambiguous.""}
+```"
+"2025-08-27T00:56:12","google/gemini-2.5-pro","Head to the shelf near entry","13.222","1","78","572","650","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Ambiguous location. Which shelf and which entry?""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Ambiguous location. Which shelf and which entry?""}"
+"2025-08-27T00:56:27","google/gemini-2.5-pro","Approach the person standing","8.176","1","76","554","630","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Target is a person who is standing.""}","```json
+{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Target is a person who is standing.""}
+```"
+"2025-08-27T00:56:35","google/gemini-2.5-pro","Approach the person standing","7.594","1","76","504","580","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""target: person standing""}","```json
+{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""target: person standing""}
+```"
+"2025-08-27T00:56:42","google/gemini-2.5-pro","Approach the person standing","7.173","1","76","468","544","{""intent"": ""move_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""the person standing""}","```json
+{""intent"":""move_to_object"",""goal"":{""x"":0,""y"":0},""note"":""the person standing""}
+```"
+"2025-08-27T00:56:54","google/gemini-2.5-pro","Approach the person standing","12.495","1","76","931","1007","{""intent"": ""approach_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","```json
+{""intent"":""approach_object"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}
+```"
+"2025-08-27T00:57:03","google/gemini-2.5-pro","Approach the person standing","8.8","1","76","554","630","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Target is a person who is standing.""}","```json
+{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Target is a person who is standing.""}
+```"
+"2025-08-27T00:57:24","google/gemini-2.5-pro","Go to the foldable chair","11.956","1","77","845","922","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location of 'the foldable chair' is unknown.""}","{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""The location of 'the foldable chair' is unknown.""}"
+"2025-08-27T00:57:35","google/gemini-2.5-pro","Go to the foldable chair","10.932","1","77","897","974","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""User specified an object, not coordinates. The target is 'foldable chair'.""}","```json
+{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""User specified an object, not coordinates. The target is 'foldable chair'.""}
+```"
+"2025-08-27T00:57:45","google/gemini-2.5-pro","Go to the foldable chair","9.39","1","77","831","908","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the location of 'the foldable chair'.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the location of 'the foldable chair'.""}
+```"
+"2025-08-27T00:57:55","google/gemini-2.5-pro","Go to the foldable chair","10.681","1","77","831","908","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the location of 'the foldable chair'.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the location of 'the foldable chair'.""}
+```"
+"2025-08-27T00:58:05","google/gemini-2.5-pro","Go to the foldable chair","9.444","1","77","699","776","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair""}","{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair""}"
+"2025-08-27T00:58:23","google/gemini-2.5-pro","I'm thirsty, go to the table for water","7.544","1","83","581","664","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the location of 'the table'.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the location of 'the table'.""}
+```"
+"2025-08-27T00:58:33","google/gemini-2.5-pro","I'm thirsty, go to the table for water","9.619","1","83","839","922","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the coordinates for 'the table'.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the coordinates for 'the table'.""}"
+"2025-08-27T00:58:43","google/gemini-2.5-pro","I'm thirsty, go to the table for water","10.446","1","83","733","816","{""intent"": ""go"", ""goal"": {""x"": 5.0, ""y"": -2.5}, ""note"": ""Get water from the table.""}","```json
+{""intent"":""go"",""goal"":{""x"":5.0,""y"":-2.5},""note"":""Get water from the table.""}
+```"
+"2025-08-27T00:58:53","google/gemini-2.5-pro","I'm thirsty, go to the table for water","9.426","1","83","686","769","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of 'the table' is unknown.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location of 'the table' is unknown.""}
+```"
+"2025-08-27T00:59:01","google/gemini-2.5-pro","I'm thirsty, go to the table for water","8.596","1","83","658","741","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know the location of 'the table'.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know the location of 'the table'.""}
+```"
+"2025-08-27T00:59:26","google/gemini-2.5-pro","Go to paracetamol","10.861","1","76","962","1038","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location 'paracetamol' is unknown. Please provide coordinates.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location 'paracetamol' is unknown. Please provide coordinates.""}"
+"2025-08-27T00:59:39","google/gemini-2.5-pro","Go to paracetamol","13.204","1","76","1023","1099","{""intent"": ""go_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol""}","```json
+{""intent"":""go_to_object"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol""}
+```"
+"2025-08-27T00:59:48","google/gemini-2.5-pro","Go to paracetamol","8.704","1","76","598","674","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Cannot determine a location for the object 'paracetamol'.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Cannot determine a location for the object 'paracetamol'.""}"
+"2025-08-27T01:00:01","google/gemini-2.5-pro","Go to paracetamol","13.414","1","76","994","1070","{""intent"": ""go"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol""}","{""intent"":""go"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol""}"
+"2025-08-27T01:00:12","google/gemini-2.5-pro","Go to paracetamol","11.265","1","76","625","701","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know where 'paracetamol' is. Please specify a location.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know where 'paracetamol' is. Please specify a location.""}"
+"2025-08-27T01:00:29","google/gemini-2.5-pro","Go to Panadol","8.191","1","77","462","539","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location 'Panadol' is ambiguous. Please specify a room or a more precise location.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location 'Panadol' is ambiguous. Please specify a room or a more precise location.""}"
+"2025-08-27T01:00:38","google/gemini-2.5-pro","Go to Panadol","8.806","1","77","605","682","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol is a product, not a location. Please specify a place like a pharmacy or store.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Panadol is a product, not a location. Please specify a place like a pharmacy or store.""}
+```"
+"2025-08-27T01:00:47","google/gemini-2.5-pro","Go to Panadol","8.704","1","77","448","525","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know where 'Panadol' is. Please provide a more specific location or address.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know where 'Panadol' is. Please provide a more specific location or address.""}
+```"
+"2025-08-27T01:00:55","google/gemini-2.5-pro","Go to Panadol","7.681","1","77","448","525","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know where 'Panadol' is. Please provide a more specific location or address.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know where 'Panadol' is. Please provide a more specific location or address.""}
+```"
+"2025-08-27T01:01:02","google/gemini-2.5-pro","Go to Panadol","6.963","1","77","448","525","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""I don't know where 'Panadol' is. Please provide a more specific location or address.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""I don't know where 'Panadol' is. Please provide a more specific location or address.""}
+```"
+"2025-08-27T01:01:20","google/gemini-2.5-pro","Go to the foldable chair for medicine","10.01","1","79","679","758","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of 'foldable chair' is unknown.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location of 'foldable chair' is unknown.""}
+```"
+"2025-08-27T01:01:31","google/gemini-2.5-pro","Go to the foldable chair for medicine","10.794","1","79","779","858","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location of 'the foldable chair' is unknown.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location of 'the foldable chair' is unknown.""}
+```"
+"2025-08-27T01:01:54","google/gemini-2.5-pro","Go to the foldable chair for medicine","23.538","1","79","2073","2152","{""intent"": ""go_to"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""foldable chair for medicine""}","```json
+{""intent"":""go_to"",""goal"":{""x"":0.0,""y"":0.0},""note"":""foldable chair for medicine""}
+```"
+"2025-08-27T01:02:05","google/gemini-2.5-pro","Go to the foldable chair for medicine","10.795","1","79","679","758","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of 'foldable chair' is unknown.""}","```json
+{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location of 'foldable chair' is unknown.""}
+```"
+"2025-08-27T01:02:21","google/gemini-2.5-pro","Go to the foldable chair for medicine","16.34","1","79","1238","1317","{""intent"": ""go"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""foldable chair for medicine""}","```json
+{""intent"":""go"",""goal"":{""x"":0.0,""y"":0.0},""note"":""foldable chair for medicine""}
+```"
+"2025-08-27T01:02:27","mistralai/mistral-large-2411","Go to the charging station","4.505","1","91","57","148","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {
+    ""x"": 0.0,
+    ""y"": 0.0
+  },
+  ""note"": ""charging station""
+}
+```"
+"2025-08-27T01:02:31","mistralai/mistral-large-2411","Go to the charging station","3.277","1","91","43","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0,""y"":0},
+  ""note"": ""charging station""
+}
+```"
+"2025-08-27T01:02:38","mistralai/mistral-large-2411","Go to the charging station","7.276","1","91","52","143","{""intent"": ""move"", ""goal"": {""x"": 5.0, ""y"": 10.0}, ""note"": ""charging station location""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 5.0, ""y"": 10.0},
+  ""note"": ""charging station location""
+}
+```"
+"2025-08-27T01:02:39","mistralai/mistral-large-2411","Go to the charging station","1.535","1","91","56","147","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": "" charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {
+    ""x"": 0.0,
+    ""y"": 0.0
+  },
+  ""note"": "" charging station""
+}
+```"
+"2025-08-27T01:02:41","mistralai/mistral-large-2411","Go to the charging station","1.429","1","91","47","138","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0.0,""y"":0.0},
+  ""note"": ""charging station""
+}
+```"
+"2025-08-27T01:02:46","mistralai/mistral-large-2411","Move to the docking station","1.958","1","92","44","136","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0,""y"":0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-27T01:02:49","mistralai/mistral-large-2411","Move to the docking station","2.841","1","92","51","143","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-27T01:02:51","mistralai/mistral-large-2411","Move to the docking station","1.844","1","92","47","139","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-27T01:02:54","mistralai/mistral-large-2411","Move to the docking station","3.135","1","92","48","140","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0.0,""y"":0.0},
+  ""note"": ""docking station""
+}
+```"
+"2025-08-27T01:02:55","mistralai/mistral-large-2411","Move to the docking station","1.576","1","92","54","146","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {
+    ""x"": 0,
+    ""y"": 0
+  },
+  ""note"": ""docking station""
+}
+```"
+"2025-08-27T01:02:58","mistralai/mistral-large-2411","Navigate to the table","1.331","1","91","47","138","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""requires table coordinates""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""requires table coordinates""
+}
+```"
+"2025-08-27T01:03:00","mistralai/mistral-large-2411","Navigate to the table","1.946","1","91","44","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""table""
+}
+```"
+"2025-08-27T01:03:01","mistralai/mistral-large-2411","Navigate to the table","1.434","1","91","44","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""table""
+}
+```"
+"2025-08-27T01:03:03","mistralai/mistral-large-2411","Navigate to the table","1.464","1","91","44","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""table""
+}
+```"
+"2025-08-27T01:03:05","mistralai/mistral-large-2411","Navigate to the table","2.12","1","91","44","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""table""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""table""
+}
+```"
+"2025-08-27T01:03:08","mistralai/mistral-large-2411","Head to the shelf near entry","1.638","1","92","46","138","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1, ""y"":1},
+  ""note"": ""shelf near entry""
+}
+```"
+"2025-08-27T01:03:10","mistralai/mistral-large-2411","Head to the shelf near entry","1.434","1","92","46","138","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""Location of shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1, ""y"":1},
+  ""note"": ""Location of shelf near entry""
+}
+```"
+"2025-08-27T01:03:11","mistralai/mistral-large-2411","Head to the shelf near entry","1.433","1","92","45","137","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""Location: shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1,""y"":1},
+  ""note"": ""Location: shelf near entry""
+}
+```"
+"2025-08-27T01:03:13","mistralai/mistral-large-2411","Head to the shelf near entry","1.638","1","92","45","137","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""Location: shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1,""y"":1},
+  ""note"": ""Location: shelf near entry""
+}
+```"
+"2025-08-27T01:03:14","mistralai/mistral-large-2411","Head to the shelf near entry","1.183","1","92","45","137","{""intent"": ""move"", ""goal"": {""x"": 1, ""y"": 1}, ""note"": ""Location: shelf near entry""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":1,""y"":1},
+  ""note"": ""Location: shelf near entry""
+}
+```"
+"2025-08-27T01:03:17","mistralai/mistral-large-2411","Approach the person standing","1.564","1","91","46","137","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","```json
+{
+  ""intent"": ""approach"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""person standing""
+}
+```"
+"2025-08-27T01:03:19","mistralai/mistral-large-2411","Approach the person standing","2.327","1","91","46","137","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","```json
+{
+  ""intent"": ""approach"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""person standing""
+}
+```"
+"2025-08-27T01:03:21","mistralai/mistral-large-2411","Approach the person standing","1.742","1","91","53","144","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","```json
+{
+  ""intent"": ""approach"",
+  ""goal"": {
+    ""x"": 0,
+    ""y"": 0
+  },
+  ""note"": ""person standing""
+}
+```"
+"2025-08-27T01:03:22","mistralai/mistral-large-2411","Approach the person standing","1.438","1","91","43","134","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","```json
+{
+  ""intent"": ""approach"",
+  ""goal"": {""x"":0,""y"":0},
+  ""note"": ""person standing""
+}
+```"
+"2025-08-27T01:03:24","mistralai/mistral-large-2411","Approach the person standing","2.047","1","91","53","144","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","```json
+{
+  ""intent"": ""approach"",
+  ""goal"": {
+    ""x"": 0,
+    ""y"": 0
+  },
+  ""note"": ""person standing""
+}
+```"
+"2025-08-27T01:03:27","mistralai/mistral-large-2411","Go to the foldable chair","1.197","1","92","46","138","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""foldable chair""
+}
+```"
+"2025-08-27T01:03:29","mistralai/mistral-large-2411","Go to the foldable chair","1.568","1","92","49","141","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination is the foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""Destination is the foldable chair""
+}
+```"
+"2025-08-27T01:03:30","mistralai/mistral-large-2411","Go to the foldable chair","1.231","1","92","49","141","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination is the foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""Destination is the foldable chair""
+}
+```"
+"2025-08-27T01:03:32","mistralai/mistral-large-2411","Go to the foldable chair","1.637","1","92","43","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"":0,""y"":0},
+  ""note"": ""foldable chair""
+}
+```"
+"2025-08-27T01:03:33","mistralai/mistral-large-2411","Go to the foldable chair","1.535","1","92","49","141","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""destination is the foldable chair""}","```json
+{
+  ""intent"": ""move"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""destination is the foldable chair""
+}
+```"
+"2025-08-27T01:03:36","mistralai/mistral-large-2411","I'm thirsty, go to the table for water","1.435","1","99","48","147","{""intent"": ""get_water"", ""goal"": {""x"": 5, ""y"": 2}, ""note"": ""Thirsty""}","```json
+{
+  ""intent"": ""get_water"",
+  ""goal"": {""x"": 5, ""y"": 2},
+  ""note"": ""Thirsty""
+}
+```"
+"2025-08-27T01:03:38","mistralai/mistral-large-2411","I'm thirsty, go to the table for water","2.148","1","99","52","151","{""intent"": ""get_water"", ""goal"": {""x"": 1.0, ""y"": 2.0}, ""note"": ""Thirsty""}","```json
+{
+  ""intent"": ""get_water"",
+  ""goal"": {""x"": 1.0, ""y"": 2.0},
+  ""note"": ""Thirsty""
+}
+```"
+"2025-08-27T01:03:40","mistralai/mistral-large-2411","I'm thirsty, go to the table for water","1.639","1","99","52","151","{""intent"": ""get_water"", ""goal"": {""x"": 5.0, ""y"": 2.0}, ""note"": ""Thirsty""}","```json
+{
+  ""intent"": ""get_water"",
+  ""goal"": {""x"": 5.0, ""y"": 2.0},
+  ""note"": ""Thirsty""
+}
+```"
+"2025-08-27T01:03:43","mistralai/mistral-large-2411","I'm thirsty, go to the table for water","2.765","1","99","54","153","{""intent"": ""get_water"", ""goal"": {""x"": 5.0, ""y"": 2.0}, ""note"": ""Water is on the table""}","```json
+{
+  ""intent"": ""get_water"",
+  ""goal"": {""x"": 5.0, ""y"": 2.0},
+  ""note"": ""Water is on the table""
+}
+```"
+"2025-08-27T01:03:45","mistralai/mistral-large-2411","I'm thirsty, go to the table for water","1.843","1","99","48","147","{""intent"": ""get_water"", ""goal"": {""x"": 5, ""y"": 2}, ""note"": ""Thirsty""}","```json
+{
+  ""intent"": ""get_water"",
+  ""goal"": {""x"": 5, ""y"": 2},
+  ""note"": ""Thirsty""
+}
+```"
+"2025-08-27T01:03:48","mistralai/mistral-large-2411","Go to paracetamol","1.544","1","93","54","147","{""intent"": ""find"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Locate paracetamol""}","```json
+{
+  ""intent"": ""find"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""Locate paracetamol""
+}
+```"
+"2025-08-27T01:03:51","mistralai/mistral-large-2411","Go to paracetamol","3.577","1","93","62","155","{""intent"": ""go_to"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination is paracetamol, coordinates need to be determined""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""Destination is paracetamol, coordinates need to be determined""
+}
+```"
+"2025-08-27T01:03:55","mistralai/mistral-large-2411","Go to paracetamol","4.075","1","93","62","155","{""intent"": ""go_to"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination is paracetamol, coordinates need to be determined""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""Destination is paracetamol, coordinates need to be determined""
+}
+```"
+"2025-08-27T01:03:58","mistralai/mistral-large-2411","Go to paracetamol","2.729","1","93","61","154","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of paracetamol unclear""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {
+    ""x"": 0,
+    ""y"": 0
+  },
+  ""note"": ""Location of paracetamol unclear""
+}
+```"
+"2025-08-27T01:04:00","mistralai/mistral-large-2411","Go to paracetamol","1.532","1","93","54","147","{""intent"": ""find"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Locate paracetamol""}","```json
+{
+  ""intent"": ""find"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""Locate paracetamol""
+}
+```"
+"2025-08-27T01:04:04","mistralai/mistral-large-2411","Go to Panadol","1.646","1","91","62","153","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination is Panadol, coordinates unspecified""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {
+    ""x"": 0,
+    ""y"": 0
+  },
+  ""note"": ""Destination is Panadol, coordinates unspecified""
+}
+```"
+"2025-08-27T01:04:07","mistralai/mistral-large-2411","Go to Panadol","3.271","1","91","62","153","{""intent"": ""goto"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination is Panadol, need coordinates""}","```json
+{
+  ""intent"": ""goto"",
+  ""goal"": {
+    ""x"": 0.0,
+    ""y"": 0.0
+  },
+  ""note"": ""Destination is Panadol, need coordinates""
+}
+```"
+"2025-08-27T01:04:09","mistralai/mistral-large-2411","Go to Panadol","1.586","1","91","65","156","{""intent"": ""goto"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination is Panadol, coordinates need to be determined""}","```json
+{
+  ""intent"": ""goto"",
+  ""goal"": {
+    ""x"": 0.0,
+    ""y"": 0.0
+  },
+  ""note"": ""Destination is Panadol, coordinates need to be determined""
+}
+```"
+"2025-08-27T01:04:12","mistralai/mistral-large-2411","Go to Panadol","3.225","1","91","60","151","{""intent"": ""go_to"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination is Panadol, coordinates need to be determined""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""Destination is Panadol, coordinates need to be determined""
+}
+```"
+"2025-08-27T01:04:14","mistralai/mistral-large-2411","Go to Panadol","1.536","1","91","57","148","{""intent"": ""go_to"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Destination is Panadol, coordinates needed""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0.0, ""y"": 0.0},
+  ""note"": ""Destination is Panadol, coordinates needed""
+}
+```"
+"2025-08-27T01:04:17","mistralai/mistral-large-2411","Go to the foldable chair for medicine","1.945","1","94","50","144","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair for medicine""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""foldable chair for medicine""
+}
+```"
+"2025-08-27T01:04:19","mistralai/mistral-large-2411","Go to the foldable chair for medicine","1.435","1","94","50","144","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair for medicine""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""foldable chair for medicine""
+}
+```"
+"2025-08-27T01:04:21","mistralai/mistral-large-2411","Go to the foldable chair for medicine","2.046","1","94","54","148","{""intent"": ""go_to"", ""goal"": {""x"": -3.4, ""y"": 2.6}, ""note"": ""foldable chair for medicine""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": -3.4, ""y"": 2.6},
+  ""note"": ""foldable chair for medicine""
+}
+```"
+"2025-08-27T01:04:29","mistralai/mistral-large-2411","Go to the foldable chair for medicine","8.295","1","94","59","153","{""intent"": ""go_to"", ""goal"": {""x"": -2.5, ""y"": 1.2}, ""note"": ""medicine""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {
+    ""x"": -2.5,
+    ""y"": 1.2
+  },
+  ""note"": ""medicine""
+}
+```"
+"2025-08-27T01:04:30","mistralai/mistral-large-2411","Go to the foldable chair for medicine","1.432","1","94","50","144","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair for medicine""}","```json
+{
+  ""intent"": ""go_to"",
+  ""goal"": {""x"": 0, ""y"": 0},
+  ""note"": ""foldable chair for medicine""
+}
+```"
+"2025-08-27T01:04:35","qwen/qwen-2.5-72b-instruct","Go to the charging station","2.181","1","89","29","118","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location assumed""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location assumed""}"
+"2025-08-27T01:04:37","qwen/qwen-2.5-72b-instruct","Go to the charging station","1.71","1","89","27","116","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location""}"
+"2025-08-27T01:04:40","qwen/qwen-2.5-72b-instruct","Go to the charging station","3.579","1","89","29","118","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location assumed""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location assumed""}"
+"2025-08-27T01:04:42","qwen/qwen-2.5-72b-instruct","Go to the charging station","1.439","1","89","27","116","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location""}"
+"2025-08-27T01:04:46","qwen/qwen-2.5-72b-instruct","Go to the charging station","4.609","1","89","29","118","{""intent"": ""move"", ""goal"": {""x"": 10.5, ""y"": 2.3}, ""note"": ""Charging station location assumed""}","{""intent"":""move"",""goal"":{""x"":10.5,""y"":2.3},""note"":""Charging station location assumed""}"
+"2025-08-27T01:04:50","qwen/qwen-2.5-72b-instruct","Move to the docking station","1.539","1","89","25","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates assumed as origin""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates assumed as origin""}"
+"2025-08-27T01:04:53","qwen/qwen-2.5-72b-instruct","Move to the docking station","3.077","1","89","25","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates assumed as origin""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates assumed as origin""}"
+"2025-08-27T01:04:54","qwen/qwen-2.5-72b-instruct","Move to the docking station","1.631","1","89","25","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates assumed as origin""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates assumed as origin""}"
+"2025-08-27T01:04:56","qwen/qwen-2.5-72b-instruct","Move to the docking station","1.535","1","89","24","113","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates required""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates required""}"
+"2025-08-27T01:04:58","qwen/qwen-2.5-72b-instruct","Move to the docking station","2.361","1","89","24","113","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates required""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates required""}"
+"2025-08-27T01:05:03","qwen/qwen-2.5-72b-instruct","Navigate to the table","3.576","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.2}, ""note"": ""Assuming table is located at coordinates 1.5, 3.2""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.2},""note"":""Assuming table is located at coordinates 1.5, 3.2""}"
+"2025-08-27T01:05:07","qwen/qwen-2.5-72b-instruct","Navigate to the table","3.277","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.2}, ""note"": ""Assuming table is located at coordinates 1.5, 3.2""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.2},""note"":""Assuming table is located at coordinates 1.5, 3.2""}"
+"2025-08-27T01:05:09","qwen/qwen-2.5-72b-instruct","Navigate to the table","2.253","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.2}, ""note"": ""Assuming table is located at coordinates 1.5, 3.2""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.2},""note"":""Assuming table is located at coordinates 1.5, 3.2""}"
+"2025-08-27T01:05:14","qwen/qwen-2.5-72b-instruct","Navigate to the table","4.552","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.2}, ""note"": ""Assuming table is located at coordinates 1.5, 3.2""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.2},""note"":""Assuming table is located at coordinates 1.5, 3.2""}"
+"2025-08-27T01:05:16","qwen/qwen-2.5-72b-instruct","Navigate to the table","2.251","1","88","39","127","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 3.2}, ""note"": ""Assuming table is located at coordinates 1.5, 3.2""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":3.2},""note"":""Assuming table is located at coordinates 1.5, 3.2""}"
+"2025-08-27T01:05:22","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","1.688","1","90","33","123","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-27T01:05:23","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","1.588","1","90","32","122","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-27T01:05:25","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","1.435","1","90","32","122","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-27T01:05:27","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","2.292","1","90","33","123","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-27T01:05:28","qwen/qwen-2.5-72b-instruct","Head to the shelf near entry","1.495","1","90","32","122","{""intent"": ""move"", ""goal"": {""x"": 1.5, ""y"": 0.5}, ""note"": ""Shelf near entry typically located close to the entrance""}","{""intent"":""move"",""goal"":{""x"":1.5,""y"":0.5},""note"":""Shelf near entry typically located close to the entrance""}"
+"2025-08-27T01:05:33","qwen/qwen-2.5-72b-instruct","Approach the person standing","2.766","1","89","30","119","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information to specify the location of the person""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Need more information to specify the location of the person""}"
+"2025-08-27T01:05:35","qwen/qwen-2.5-72b-instruct","Approach the person standing","1.59","1","89","29","118","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more specific location data for the person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Need more specific location data for the person standing""}"
+"2025-08-27T01:05:36","qwen/qwen-2.5-72b-instruct","Approach the person standing","1.455","1","89","30","119","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need more information to specify the location of the person""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""Need more information to specify the location of the person""}"
+"2025-08-27T01:05:38","qwen/qwen-2.5-72b-instruct","Approach the person standing","1.669","1","89","21","110","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:05:39","qwen/qwen-2.5-72b-instruct","Approach the person standing","1.211","1","89","21","110","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:05:47","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","2.765","1","90","26","116","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""location of the foldable chair is unknown""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""location of the foldable chair is unknown""}"
+"2025-08-27T01:05:49","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","1.535","1","90","28","118","{""intent"": ""move_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair's coordinates are unknown""}","{""intent"":""move_to_object"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair's coordinates are unknown""}"
+"2025-08-27T01:05:50","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","1.639","1","90","28","118","{""intent"": ""move_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair's coordinates are unknown""}","{""intent"":""move_to_object"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair's coordinates are unknown""}"
+"2025-08-27T01:05:52","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","1.578","1","90","26","116","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the foldable chair is unknown""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Location of the foldable chair is unknown""}"
+"2025-08-27T01:05:54","qwen/qwen-2.5-72b-instruct","Go to the foldable chair","1.689","1","90","26","116","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the foldable chair is unknown""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Location of the foldable chair is unknown""}"
+"2025-08-27T01:05:57","qwen/qwen-2.5-72b-instruct","I'm thirsty, go to the table for water","1.458","1","94","25","119","{""intent"": ""get_water"", ""goal"": {""x"": 1.5, ""y"": 3.2}, ""note"": ""table location""}","{""intent"":""get_water"",""goal"":{""x"":1.5,""y"":3.2},""note"":""table location""}"
+"2025-08-27T01:05:59","qwen/qwen-2.5-72b-instruct","I'm thirsty, go to the table for water","2.048","1","94","27","121","{""intent"": ""get_water"", ""goal"": {""x"": 2.5, ""y"": 3.0}, ""note"": ""table location assumed""}","{""intent"":""get_water"",""goal"":{""x"":2.5,""y"":3.0},""note"":""table location assumed""}"
+"2025-08-27T01:06:00","qwen/qwen-2.5-72b-instruct","I'm thirsty, go to the table for water","1.456","1","94","27","121","{""intent"": ""get_water"", ""goal"": {""x"": 2.5, ""y"": 3.0}, ""note"": ""table location assumed""}","{""intent"":""get_water"",""goal"":{""x"":2.5,""y"":3.0},""note"":""table location assumed""}"
+"2025-08-27T01:06:02","qwen/qwen-2.5-72b-instruct","I'm thirsty, go to the table for water","1.514","1","94","27","121","{""intent"": ""get_water"", ""goal"": {""x"": 2.5, ""y"": 3.0}, ""note"": ""table location assumed""}","{""intent"":""get_water"",""goal"":{""x"":2.5,""y"":3.0},""note"":""table location assumed""}"
+"2025-08-27T01:06:04","qwen/qwen-2.5-72b-instruct","I'm thirsty, go to the table for water","2.048","1","94","27","121","{""intent"": ""get_water"", ""goal"": {""x"": 2.5, ""y"": 3.0}, ""note"": ""table location assumed""}","{""intent"":""get_water"",""goal"":{""x"":2.5,""y"":3.0},""note"":""table location assumed""}"
+"2025-08-27T01:06:07","qwen/qwen-2.5-72b-instruct","Go to paracetamol","1.946","1","90","26","116","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need coordinates for paracetamol location""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need coordinates for paracetamol location""}"
+"2025-08-27T01:06:08","qwen/qwen-2.5-72b-instruct","Go to paracetamol","1.072","1","90","27","117","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of paracetamol is not specified""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Location of paracetamol is not specified""}"
+"2025-08-27T01:06:12","qwen/qwen-2.5-72b-instruct","Go to paracetamol","3.535","1","90","33","123","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Paracetamol location unknown, please specify coordinates or provide more details.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Paracetamol location unknown, please specify coordinates or provide more details.""}"
+"2025-08-27T01:06:14","qwen/qwen-2.5-72b-instruct","Go to paracetamol","1.537","1","90","26","116","{""intent"": ""locate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Paracetamol location not specified""}","{""intent"":""locate"",""goal"":{""x"":0,""y"":0},""note"":""Paracetamol location not specified""}"
+"2025-08-27T01:06:15","qwen/qwen-2.5-72b-instruct","Go to paracetamol","1.457","1","90","27","117","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Need coordinates for paracetamol location""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Need coordinates for paracetamol location""}"
+"2025-08-27T01:06:20","qwen/qwen-2.5-72b-instruct","Go to Panadol","1.642","1","88","25","113","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol's location is not specified""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol's location is not specified""}"
+"2025-08-27T01:06:21","qwen/qwen-2.5-72b-instruct","Go to Panadol","1.532","1","88","25","113","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol's location is not specified""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol's location is not specified""}"
+"2025-08-27T01:06:24","qwen/qwen-2.5-72b-instruct","Go to Panadol","2.764","1","88","40","128","{""intent"": ""navigate"", ""goal"": {""x"": 123.456, ""y"": 789.012}, ""note"": ""Panadol's coordinates are assumed for demonstration purposes""}","{""intent"":""navigate"",""goal"":{""x"":123.456,""y"":789.012},""note"":""Panadol's coordinates are assumed for demonstration purposes""}"
+"2025-08-27T01:06:27","qwen/qwen-2.5-72b-instruct","Go to Panadol","2.531","1","88","40","128","{""intent"": ""navigate"", ""goal"": {""x"": 123.456, ""y"": 789.012}, ""note"": ""Panadol's coordinates are assumed for demonstration purposes""}","{""intent"":""navigate"",""goal"":{""x"":123.456,""y"":789.012},""note"":""Panadol's coordinates are assumed for demonstration purposes""}"
+"2025-08-27T01:06:28","qwen/qwen-2.5-72b-instruct","Go to Panadol","1.155","1","88","25","113","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol's location is not specified""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol's location is not specified""}"
+"2025-08-27T01:06:33","qwen/qwen-2.5-72b-instruct","Go to the foldable chair for medicine","3.366","1","92","29","121","{""intent"": ""go_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair for medicine location not specified""}","{""intent"":""go_to_object"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair for medicine location not specified""}"
+"2025-08-27T01:06:34","qwen/qwen-2.5-72b-instruct","Go to the foldable chair for medicine","1.536","1","92","25","117","{""intent"": ""go_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair for medicine""}","{""intent"":""go_to_object"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair for medicine""}"
+"2025-08-27T01:06:36","qwen/qwen-2.5-72b-instruct","Go to the foldable chair for medicine","1.536","1","92","27","119","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair for medicine, location unknown""}","{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair for medicine, location unknown""}"
+"2025-08-27T01:06:37","qwen/qwen-2.5-72b-instruct","Go to the foldable chair for medicine","1.536","1","92","27","119","{""intent"": ""go_to"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair for medicine, location unknown""}","{""intent"":""go_to"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair for medicine, location unknown""}"
+"2025-08-27T01:06:40","qwen/qwen-2.5-72b-instruct","Go to the foldable chair for medicine","2.355","1","92","29","121","{""intent"": ""go_to_object"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair for medicine location not specified""}","{""intent"":""go_to_object"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair for medicine location not specified""}"
+"2025-08-27T01:06:42","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.359","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-27T01:06:44","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.023","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-27T01:06:45","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.331","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-27T01:06:46","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.433","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-27T01:06:48","meta-llama/llama-3.3-70b-instruct","Go to the charging station","1.332","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""charging station""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""charging station""}"
+"2025-08-27T01:06:51","meta-llama/llama-3.3-70b-instruct","Move to the docking station","2.665","1","92","22","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""docking station""}"
+"2025-08-27T01:06:53","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.43","1","91","26","117","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0.0,""y"":0.0},""note"":""docking station""}"
+"2025-08-27T01:06:54","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.331","1","91","26","117","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0.0,""y"":0.0},""note"":""docking station""}"
+"2025-08-27T01:06:56","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.852","1","91","26","117","{""intent"": ""move"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0.0,""y"":0.0},""note"":""docking station""}"
+"2025-08-27T01:06:57","meta-llama/llama-3.3-70b-instruct","Move to the docking station","1.323","1","92","22","114","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""docking station""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""docking station""}"
+"2025-08-27T01:07:01","meta-llama/llama-3.3-70b-instruct","Navigate to the table","1.887","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""navigate"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-27T01:07:02","meta-llama/llama-3.3-70b-instruct","Navigate to the table","1.595","1","91","25","116","{""intent"": ""navigate"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""navigate"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-27T01:07:03","meta-llama/llama-3.3-70b-instruct","Navigate to the table","1.024","1","90","25","115","{""intent"": ""navigate"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""navigate"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-27T01:07:05","meta-llama/llama-3.3-70b-instruct","Navigate to the table","1.536","1","90","25","115","{""intent"": ""navigate"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""navigate"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-27T01:07:06","meta-llama/llama-3.3-70b-instruct","Navigate to the table","1.433","1","90","25","115","{""intent"": ""navigate"", ""goal"": {""x"": 1.0, ""y"": 1.0}, ""note"": ""table location""}","{""intent"":""navigate"",""goal"":{""x"":1.0,""y"":1.0},""note"":""table location""}"
+"2025-08-27T01:07:10","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","1.941","1","93","25","118","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-27T01:07:14","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","3.679","1","93","25","118","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-27T01:07:16","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","2.057","1","93","25","118","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-27T01:07:18","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","2.251","1","92","25","117","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-27T01:07:20","meta-llama/llama-3.3-70b-instruct","Head to the shelf near entry","2.053","1","93","25","118","{""intent"": ""move"", ""goal"": {""x"": 1.0, ""y"": 0.0}, ""note"": ""near entry""}","{""intent"":""move"",""goal"":{""x"":1.0,""y"":0.0},""note"":""near entry""}"
+"2025-08-27T01:07:22","meta-llama/llama-3.3-70b-instruct","Approach the person standing","1.079","1","91","22","113","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:07:23","meta-llama/llama-3.3-70b-instruct","Approach the person standing","0.995","1","92","22","114","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:07:25","meta-llama/llama-3.3-70b-instruct","Approach the person standing","1.651","1","92","22","114","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:07:26","meta-llama/llama-3.3-70b-instruct","Approach the person standing","1.448","1","92","22","114","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:07:29","meta-llama/llama-3.3-70b-instruct","Approach the person standing","3.175","1","91","22","113","{""intent"": ""approach"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""person standing""}","{""intent"":""approach"",""goal"":{""x"":0,""y"":0},""note"":""person standing""}"
+"2025-08-27T01:07:37","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","3.789","1","93","28","121","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-27T01:07:43","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","5.836","1","92","28","120","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-27T01:07:44","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","1.434","1","93","28","121","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-27T01:07:47","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","3.071","1","93","28","121","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-27T01:07:51","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair","4.185","1","92","27","119","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""foldable chair location unknown, please specify coordinates""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""foldable chair location unknown, please specify coordinates""}"
+"2025-08-27T01:07:58","meta-llama/llama-3.3-70b-instruct","I'm thirsty, go to the table for water","3.481","1","97","23","120","{""intent"": ""fetch"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""get water from table""}","{""intent"":""fetch"",""goal"":{""x"":0,""y"":0},""note"":""get water from table""}"
+"2025-08-27T01:08:00","meta-llama/llama-3.3-70b-instruct","I'm thirsty, go to the table for water","2.56","1","97","22","119","{""intent"": ""fetch"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""water from table""}","{""intent"":""fetch"",""goal"":{""x"":0,""y"":0},""note"":""water from table""}"
+"2025-08-27T01:08:01","meta-llama/llama-3.3-70b-instruct","I'm thirsty, go to the table for water","1.127","1","97","22","119","{""intent"": ""fetch"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""water from table""}","{""intent"":""fetch"",""goal"":{""x"":0,""y"":0},""note"":""water from table""}"
+"2025-08-27T01:08:05","meta-llama/llama-3.3-70b-instruct","I'm thirsty, go to the table for water","3.633","1","97","23","120","{""intent"": ""fetch"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""get water from table""}","{""intent"":""fetch"",""goal"":{""x"":0,""y"":0},""note"":""get water from table""}"
+"2025-08-27T01:08:07","meta-llama/llama-3.3-70b-instruct","I'm thirsty, go to the table for water","2.203","1","97","22","119","{""intent"": ""fetch"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""water from table""}","{""intent"":""fetch"",""goal"":{""x"":0,""y"":0},""note"":""water from table""}"
+"2025-08-27T01:08:10","meta-llama/llama-3.3-70b-instruct","Go to paracetamol","1.536","1","93","30","123","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol location unknown, provide coordinates or context""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol location unknown, provide coordinates or context""}"
+"2025-08-27T01:08:14","meta-llama/llama-3.3-70b-instruct","Go to paracetamol","3.148","1","92","30","122","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol location unknown, provide coordinates or context""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol location unknown, provide coordinates or context""}"
+"2025-08-27T01:08:17","meta-llama/llama-3.3-70b-instruct","Go to paracetamol","3.303","1","93","29","122","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol location unknown, please provide coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol location unknown, please provide coordinates""}"
+"2025-08-27T01:08:21","meta-llama/llama-3.3-70b-instruct","Go to paracetamol","3.788","1","93","29","122","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol location unknown, please provide coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol location unknown, please provide coordinates""}"
+"2025-08-27T01:08:24","meta-llama/llama-3.3-70b-instruct","Go to paracetamol","3.584","1","93","29","122","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""paracetamol location unknown, please provide coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""paracetamol location unknown, please provide coordinates""}"
+"2025-08-27T01:08:28","meta-llama/llama-3.3-70b-instruct","Go to Panadol","2.485","1","90","33","123","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol, likely a store or pharmacy, but location coordinates are unknown""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol, likely a store or pharmacy, but location coordinates are unknown""}"
+"2025-08-27T01:08:30","meta-llama/llama-3.3-70b-instruct","Go to Panadol","1.515","1","91","28","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol location unknown, provide coordinates or address""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol location unknown, provide coordinates or address""}"
+"2025-08-27T01:08:31","meta-llama/llama-3.3-70b-instruct","Go to Panadol","1.428","1","90","33","123","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol, likely a store or pharmacy, but location coordinates are unknown""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol, likely a store or pharmacy, but location coordinates are unknown""}"
+"2025-08-27T01:08:33","meta-llama/llama-3.3-70b-instruct","Go to Panadol","1.741","1","91","32","123","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol, likely a location or store, but coordinates are unknown""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol, likely a location or store, but coordinates are unknown""}"
+"2025-08-27T01:08:37","meta-llama/llama-3.3-70b-instruct","Go to Panadol","3.788","1","91","28","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol location unknown, provide coordinates or address""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Panadol location unknown, provide coordinates or address""}"
+"2025-08-27T01:08:42","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair for medicine","1.613","1","95","29","124","{""intent"": ""navigate"", ""goal"": {""x"": 0.5, ""y"": 0.2}, ""note"": ""retrieve medicine from foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0.5,""y"":0.2},""note"":""retrieve medicine from foldable chair""}"
+"2025-08-27T01:08:45","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair for medicine","2.661","1","94","29","123","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""find foldable chair for medicine""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""find foldable chair for medicine""}"
+"2025-08-27T01:08:46","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair for medicine","1.537","1","95","29","124","{""intent"": ""navigate"", ""goal"": {""x"": 0.5, ""y"": 0.2}, ""note"": ""retrieve medicine from foldable chair""}","{""intent"":""navigate"",""goal"":{""x"":0.5,""y"":0.2},""note"":""retrieve medicine from foldable chair""}"
+"2025-08-27T01:08:48","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair for medicine","1.536","1","94","29","123","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""find foldable chair for medicine""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""find foldable chair for medicine""}"
+"2025-08-27T01:08:49","meta-llama/llama-3.3-70b-instruct","Go to the foldable chair for medicine","1.433","1","94","29","123","{""intent"": ""navigate"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""find foldable chair for medicine""}","{""intent"":""navigate"",""goal"":{""x"":0.0,""y"":0.0},""note"":""find foldable chair for medicine""}"
+"2025-08-27T01:08:53","mistralai/mistral-7b-instruct","Go to the charging station","2.134","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-27T01:08:55","mistralai/mistral-7b-instruct","Go to the charging station","2.318","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-27T01:08:59","mistralai/mistral-7b-instruct","Go to the charging station","4.133","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-27T01:09:02","mistralai/mistral-7b-instruct","Go to the charging station","2.283","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-27T01:09:04","mistralai/mistral-7b-instruct","Go to the charging station","2.056","1","92","29","121","{""intent"": ""go_to_charging_station"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": """"}"," {""intent"":""go_to_charging_station"",""goal"":{""x"":0,""y"":0},""note"":""""}"
+"2025-08-27T01:09:10","mistralai/mistral-7b-instruct","Move to the docking station","4.34","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's location is assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's location is assumed to be (0,0) in this context""}"
+"2025-08-27T01:09:12","mistralai/mistral-7b-instruct","Move to the docking station","2.662","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's coordinates are assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's coordinates are assumed to be (0,0) in this context""}"
+"2025-08-27T01:09:16","mistralai/mistral-7b-instruct","Move to the docking station","3.891","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's location is assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's location is assumed to be (0,0) in this context""}"
+"2025-08-27T01:09:18","mistralai/mistral-7b-instruct","Move to the docking station","1.843","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's coordinates are assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's coordinates are assumed to be (0,0) in this context""}"
+"2025-08-27T01:09:20","mistralai/mistral-7b-instruct","Move to the docking station","1.848","1","93","42","135","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The docking station's coordinates are assumed to be (0,0) in this context""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":0}, ""note"":""The docking station's coordinates are assumed to be (0,0) in this context""}"
+"2025-08-27T01:09:24","mistralai/mistral-7b-instruct","Navigate to the table","1.946","1","92","27","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""to the table""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":1}, ""note"":""to the table""}"
+"2025-08-27T01:09:26","mistralai/mistral-7b-instruct","Navigate to the table","1.229","1","92","27","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""to the table""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":1}, ""note"":""to the table""}"
+"2025-08-27T01:09:29","mistralai/mistral-7b-instruct","Navigate to the table","3.072","1","92","27","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""to the table""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":1}, ""note"":""to the table""}"
+"2025-08-27T01:09:33","mistralai/mistral-7b-instruct","Navigate to the table","4.199","1","92","27","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""to the table""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":1}, ""note"":""to the table""}"
+"2025-08-27T01:09:34","mistralai/mistral-7b-instruct","Navigate to the table","1.284","1","92","27","119","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""to the table""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":1}, ""note"":""to the table""}"
+"2025-08-27T01:09:37","mistralai/mistral-7b-instruct","Head to the shelf near entry","1.536","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-27T01:09:39","mistralai/mistral-7b-instruct","Head to the shelf near entry","1.536","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-27T01:09:42","mistralai/mistral-7b-instruct","Head to the shelf near entry","2.568","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-27T01:09:43","mistralai/mistral-7b-instruct","Head to the shelf near entry","1.457","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-27T01:09:45","mistralai/mistral-7b-instruct","Head to the shelf near entry","1.504","1","93","41","134","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Head towards the shelf near the entry, typically found along the wall or near the entrance.""}"
+"2025-08-27T01:09:49","mistralai/mistral-7b-instruct","Approach the person standing","1.583","1","92","30","122","{""intent"": ""approachPerson"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the person is not specified""}"," {""intent"":""approachPerson"",""goal"":{""x"":0,""y"":0},""note"":""Location of the person is not specified""}"
+"2025-08-27T01:09:51","mistralai/mistral-7b-instruct","Approach the person standing","1.296","1","92","31","123","{""intent"": ""approachPerson"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the person is not specified""}"," {""intent"":""approachPerson"",""goal"":{""x"":0,""y"":0},""note"":""Location of the person is not specified""}"
+"2025-08-27T01:09:53","mistralai/mistral-7b-instruct","Approach the person standing","2.012","1","92","30","122","{""intent"": ""approachPerson"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the person is not specified""}"," {""intent"":""approachPerson"",""goal"":{""x"":0,""y"":0},""note"":""Location of the person is not specified""}"
+"2025-08-27T01:09:55","mistralai/mistral-7b-instruct","Approach the person standing","2.765","1","92","30","122","{""intent"": ""approachPerson"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the person is not specified""}"," {""intent"":""approachPerson"",""goal"":{""x"":0,""y"":0},""note"":""Location of the person is not specified""}"
+"2025-08-27T01:09:57","mistralai/mistral-7b-instruct","Approach the person standing","1.229","1","92","30","122","{""intent"": ""approachPerson"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of the person is not specified""}"," {""intent"":""approachPerson"",""goal"":{""x"":0,""y"":0},""note"":""Location of the person is not specified""}"
+"2025-08-27T01:10:00","mistralai/mistral-7b-instruct","Go to the foldable chair","2.037","1","93","55","148","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"
+"2025-08-27T01:10:02","mistralai/mistral-7b-instruct","Go to the foldable chair","1.704","1","93","55","148","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"
+"2025-08-27T01:10:04","mistralai/mistral-7b-instruct","Go to the foldable chair","1.583","1","93","47","140","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is in the room and the '1' represents the height from the ground where the chair is located""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is in the room and the '1' represents the height from the ground where the chair is located""}"
+"2025-08-27T01:10:06","mistralai/mistral-7b-instruct","Go to the foldable chair","2.56","1","93","55","148","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"
+"2025-08-27T01:10:08","mistralai/mistral-7b-instruct","Go to the foldable chair","1.537","1","93","55","148","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Assuming the chair is located in the living room and the 'go' command refers to the y-axis, which is the vertical axis in this context.""}"
+"2025-08-27T01:10:13","mistralai/mistral-7b-instruct","I'm thirsty, go to the table for water","1.946","0","100","41","141",""," {""intent"":""fetchWater"", ""goal"":{""x"":table_x_coordinate, ""y"":table_y_coordinate}, ""note"":""Go to the table to get water""}"
+"2025-08-27T01:10:14","mistralai/mistral-7b-instruct","I'm thirsty, go to the table for water","1.328","0","100","41","141",""," {""intent"":""fetchWater"", ""goal"":{""x"":table_x_coordinate, ""y"":table_y_coordinate}, ""note"":""Go to the table to get water""}"
+"2025-08-27T01:10:17","mistralai/mistral-7b-instruct","I'm thirsty, go to the table for water","2.36","0","100","41","141",""," {""intent"":""fetchWater"", ""goal"":{""x"":table_x_coordinate, ""y"":table_y_coordinate}, ""note"":""Go to the table to get water""}"
+"2025-08-27T01:10:18","mistralai/mistral-7b-instruct","I'm thirsty, go to the table for water","1.588","0","100","41","141",""," {""intent"":""fetchWater"", ""goal"":{""x"":table_x_coordinate, ""y"":table_y_coordinate}, ""note"":""Go to the table to get water""}"
+"2025-08-27T01:10:20","mistralai/mistral-7b-instruct","I'm thirsty, go to the table for water","1.586","0","100","41","141",""," {""intent"":""fetchWater"", ""goal"":{""x"":table_x_coordinate, ""y"":table_y_coordinate}, ""note"":""Go to the table to get water""}"
+"2025-08-27T01:10:26","mistralai/mistral-7b-instruct","Go to paracetamol","3.989","1","94","34","128","{""intent"": ""find_item"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Find the location of paracetamol""}"," {""intent"":""find_item"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Find the location of paracetamol""}"
+"2025-08-27T01:10:28","mistralai/mistral-7b-instruct","Go to paracetamol","1.744","1","94","34","128","{""intent"": ""find_item"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Find the location of paracetamol""}"," {""intent"":""find_item"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Find the location of paracetamol""}"
+"2025-08-27T01:10:31","mistralai/mistral-7b-instruct","Go to paracetamol","3.784","1","94","34","128","{""intent"": ""find_item"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Find the location of paracetamol""}"," {""intent"":""find_item"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Find the location of paracetamol""}"
+"2025-08-27T01:10:35","mistralai/mistral-7b-instruct","Go to paracetamol","3.38","1","94","34","128","{""intent"": ""find_item"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Find the location of paracetamol""}"," {""intent"":""find_item"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Find the location of paracetamol""}"
+"2025-08-27T01:10:36","mistralai/mistral-7b-instruct","Go to paracetamol","1.434","1","94","34","128","{""intent"": ""find_item"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Find the location of paracetamol""}"," {""intent"":""find_item"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Find the location of paracetamol""}"
+"2025-08-27T01:10:41","mistralai/mistral-7b-instruct","Go to Panadol","2.662","1","92","32","124","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of Panadol""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Please specify the location of Panadol""}"
+"2025-08-27T01:10:42","mistralai/mistral-7b-instruct","Go to Panadol","1.585","1","92","32","124","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of Panadol""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Please specify the location of Panadol""}"
+"2025-08-27T01:10:44","mistralai/mistral-7b-instruct","Go to Panadol","1.794","1","92","32","124","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of Panadol""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Please specify the location of Panadol""}"
+"2025-08-27T01:10:48","mistralai/mistral-7b-instruct","Go to Panadol","3.594","1","92","32","124","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of Panadol""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Please specify the location of Panadol""}"
+"2025-08-27T01:10:50","mistralai/mistral-7b-instruct","Go to Panadol","1.834","1","92","32","124","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of Panadol""}"," {""intent"":""navigate"", ""goal"":{""x"":0, ""y"":0}, ""note"":""Please specify the location of Panadol""}"
+"2025-08-27T01:10:55","mistralai/mistral-7b-instruct","Go to the foldable chair for medicine","1.639","1","95","36","131","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Go to the location of the foldable chair to retrieve the medicine""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Go to the location of the foldable chair to retrieve the medicine""}"
+"2025-08-27T01:10:57","mistralai/mistral-7b-instruct","Go to the foldable chair for medicine","1.95","1","95","36","131","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Go to the location of the foldable chair to retrieve the medicine""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Go to the location of the foldable chair to retrieve the medicine""}"
+"2025-08-27T01:10:59","mistralai/mistral-7b-instruct","Go to the foldable chair for medicine","1.532","1","95","36","131","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Go to the location of the foldable chair to retrieve the medicine""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Go to the location of the foldable chair to retrieve the medicine""}"
+"2025-08-27T01:11:00","mistralai/mistral-7b-instruct","Go to the foldable chair for medicine","1.536","1","95","36","131","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Go to the location of the foldable chair to retrieve the medicine""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Go to the location of the foldable chair to retrieve the medicine""}"
+"2025-08-27T01:11:02","mistralai/mistral-7b-instruct","Go to the foldable chair for medicine","1.536","1","95","36","131","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 1}, ""note"": ""Go to the location of the foldable chair to retrieve the medicine""}"," {""intent"":""move"", ""goal"":{""x"":0, ""y"":1}, ""note"":""Go to the location of the foldable chair to retrieve the medicine""}"
+"2025-08-27T01:11:26","deepseek/deepseek-r1","Go to the charging station","14.848","1","83","408","491","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified""}"
+"2025-08-27T01:11:33","deepseek/deepseek-r1","Go to the charging station","7.407","1","83","256","339","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified""}"
+"2025-08-27T01:11:43","deepseek/deepseek-r1","Go to the charging station","10.016","1","83","405","488","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified""}"
+"2025-08-27T01:11:52","deepseek/deepseek-r1","Go to the charging station","8.485","1","83","457","540","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location required; coordinates not provided.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location required; coordinates not provided.""}"
+"2025-08-27T01:12:32","deepseek/deepseek-r1","Go to the charging station","40.546","1","84","483","567","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Charging station location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Charging station location not specified""}"
+"2025-08-27T01:12:49","deepseek/deepseek-r1","Move to the docking station","3.332","1","83","179","262","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming default docking station coordinates""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Assuming default docking station coordinates""}"
+"2025-08-27T01:13:18","deepseek/deepseek-r1","Move to the docking station","29.648","1","84","516","600","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates assumed; confirm if different.""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates assumed; confirm if different.""}"
+"2025-08-27T01:13:25","deepseek/deepseek-r1","Move to the docking station","6.645","1","83","164","247","{""intent"": ""move"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Move to the docking station""}","{""intent"":""move"",""goal"":{""x"":0,""y"":0},""note"":""Move to the docking station""}"
+"2025-08-27T01:13:34","deepseek/deepseek-r1","Move to the docking station","8.747","1","83","645","728","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Moving to the docking station""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Moving to the docking station""}"
+"2025-08-27T01:13:41","deepseek/deepseek-r1","Move to the docking station","7.659","1","84","168","252","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Docking station coordinates not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Docking station coordinates not specified""}"
+"2025-08-27T01:13:49","deepseek/deepseek-r1","Navigate to the table","4.097","1","82","238","320","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Table location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Table location not specified""}"
+"2025-08-27T01:13:58","deepseek/deepseek-r1","Navigate to the table","8.256","1","82","247","329","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Table coordinates not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Table coordinates not specified""}"
+"2025-08-27T01:14:00","deepseek/deepseek-r1","Navigate to the table","2.422","1","82","185","267","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify the coordinates or location of the table""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify the coordinates or location of the table""}"
+"2025-08-27T01:14:04","deepseek/deepseek-r1","Navigate to the table","3.552","1","82","233","315","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Missing coordinates for the table location""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Missing coordinates for the table location""}"
+"2025-08-27T01:14:07","deepseek/deepseek-r1","Navigate to the table","3.378","1","82","261","343","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Which table? Specify location.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Which table? Specify location.""}"
+"2025-08-27T01:14:26","deepseek/deepseek-r1","Head to the shelf near entry","12.185","1","85","230","315","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the exact coordinates of the shelf near the entry.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Please specify the exact coordinates of the shelf near the entry.""}"
+"2025-08-27T01:14:41","deepseek/deepseek-r1","Head to the shelf near entry","14.744","1","85","280","365","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify the exact location or coordinates of the shelf near the entry""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify the exact location or coordinates of the shelf near the entry""}"
+"2025-08-27T01:14:57","deepseek/deepseek-r1","Head to the shelf near entry","16.383","1","85","357","442","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify coordinates for 'shelf near entry' or provide more location details""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify coordinates for 'shelf near entry' or provide more location details""}"
+"2025-08-27T01:15:20","deepseek/deepseek-r1","Head to the shelf near entry","22.573","1","84","835","919","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Shelf near the entry point""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Shelf near the entry point""}"
+"2025-08-27T01:15:35","deepseek/deepseek-r1","Head to the shelf near entry","14.698","1","84","426","510","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Exact coordinates of the shelf near entry are not specified.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Exact coordinates of the shelf near entry are not specified.""}"
+"2025-08-27T01:15:47","deepseek/deepseek-r1","Approach the person standing","6.343","1","83","215","298","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Person's position unspecified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Person's position unspecified""}"
+"2025-08-27T01:15:53","deepseek/deepseek-r1","Approach the person standing","6.041","1","83","201","284","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Please specify the location of the person to approach.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Please specify the location of the person to approach.""}"
+"2025-08-27T01:16:23","deepseek/deepseek-r1","Approach the person standing","30.82","1","84","307","391","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Target coordinates for the person are missing""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Target coordinates for the person are missing""}"
+"2025-08-27T01:16:32","deepseek/deepseek-r1","Approach the person standing","8.665","1","83","322","405","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Person's location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Person's location not specified""}"
+"2025-08-27T01:16:53","deepseek/deepseek-r1","Approach the person standing","20.619","1","83","638","721","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Person's location not specified. Detection or coordinates required.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Person's location not specified. Detection or coordinates required.""}"
+"2025-08-27T01:17:08","deepseek/deepseek-r1","Go to the foldable chair","7.903","1","84","228","312","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify coordinates or location of the foldable chair""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify coordinates or location of the foldable chair""}"
+"2025-08-27T01:17:16","deepseek/deepseek-r1","Go to the foldable chair","7.871","1","84","303","387","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Location of foldable chair unknown""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Location of foldable chair unknown""}"
+"2025-08-27T01:17:28","deepseek/deepseek-r1","Go to the foldable chair","12.129","1","84","389","473","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Coordinates for foldable chair not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Coordinates for foldable chair not specified""}"
+"2025-08-27T01:17:35","deepseek/deepseek-r1","Go to the foldable chair","7.399","1","84","240","324","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Foldable chair location not specified""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Foldable chair location not specified""}"
+"2025-08-27T01:17:43","deepseek/deepseek-r1","Go to the foldable chair","7.089","1","84","209","293","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify the location of the foldable chair""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify the location of the foldable chair""}"
+"2025-08-27T01:18:16","deepseek/deepseek-r1","I'm thirsty, go to the table for water","22.117","1","88","687","775","{""intent"": ""get_water"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Go to the table to fetch water""}","{""intent"":""get_water"",""goal"":{""x"":0,""y"":0},""note"":""Go to the table to fetch water""}"
+"2025-08-27T01:18:23","deepseek/deepseek-r1","I'm thirsty, go to the table for water","7.246","1","88","206","294","{""intent"": ""get_water"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming water is available on the nearest table""}","{""intent"":""get_water"",""goal"":{""x"":0,""y"":0},""note"":""Assuming water is available on the nearest table""}"
+"2025-08-27T01:18:28","deepseek/deepseek-r1","I'm thirsty, go to the table for water","5.04","1","89","248","337","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Assuming the table is at default coordinates (0,0) as specific location was not provided""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Assuming the table is at default coordinates (0,0) as specific location was not provided""}"
+"2025-08-27T01:19:06","deepseek/deepseek-r1","I'm thirsty, go to the table for water","38.193","1","88","1232","1320","{""intent"": ""get_water"", ""goal"": {""x"": 0.0, ""y"": 0.0}, ""note"": ""Move to the table to fetch water""}","{""intent"":""get_water"",""goal"":{""x"":0.0,""y"":0.0},""note"":""Move to the table to fetch water""}"
+"2025-08-27T01:19:12","deepseek/deepseek-r1","I'm thirsty, go to the table for water","6.349","1","88","254","342","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""No coordinates provided for the table location""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""No coordinates provided for the table location""}"
+"2025-08-27T01:19:30","deepseek/deepseek-r1","Go to paracetamol","6.991","1","83","266","349","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Paracetamol's location coordinates are not specified. Please provide a destination or context.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Paracetamol's location coordinates are not specified. Please provide a destination or context.""}"
+"2025-08-27T01:19:35","deepseek/deepseek-r1","Go to paracetamol","5.601","1","83","232","315","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination (paracetamol) location not specified. Provide coordinates or area.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination (paracetamol) location not specified. Provide coordinates or area.""}"
+"2025-08-27T01:19:41","deepseek/deepseek-r1","Go to paracetamol","5.662","1","83","219","302","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Paracetamol location not specified. Provide coordinates or description.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Paracetamol location not specified. Provide coordinates or description.""}"
+"2025-08-27T01:19:47","deepseek/deepseek-r1","Go to paracetamol","6.451","1","83","178","261","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Paracetamol location not specified. Please provide coordinates or context.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Paracetamol location not specified. Please provide coordinates or context.""}"
+"2025-08-27T01:19:51","deepseek/deepseek-r1","Go to paracetamol","3.736","1","83","139","222","{""intent"": ""navigate"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination 'paracetamol' unclear, provide coordinates or context""}","{""intent"":""navigate"",""goal"":{""x"":0,""y"":0},""note"":""Destination 'paracetamol' unclear, provide coordinates or context""}"
+"2025-08-27T01:20:01","deepseek/deepseek-r1","Go to Panadol","3.583","1","83","184","267","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol's location coordinates (x,y) are required""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Panadol's location coordinates (x,y) are required""}"
+"2025-08-27T01:20:07","deepseek/deepseek-r1","Go to Panadol","6.539","1","83","278","361","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify the location of Panadol (e.g., coordinates, address, or landmark)""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify the location of Panadol (e.g., coordinates, address, or landmark)""}"
+"2025-08-27T01:20:17","deepseek/deepseek-r1","Go to Panadol","9.887","1","83","293","376","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol is a product (paracetamol). Please specify the destination (e.g., pharmacy name/address).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Panadol is a product (paracetamol). Please specify the destination (e.g., pharmacy name/address).""}"
+"2025-08-27T01:20:27","deepseek/deepseek-r1","Go to Panadol","9.992","1","83","238","321","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Panadol is a product. Please specify the destination (e.g., pharmacy, store).""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Panadol is a product. Please specify the destination (e.g., pharmacy, store).""}"
+"2025-08-27T01:20:36","deepseek/deepseek-r1","Go to Panadol","9.215","1","83","208","291","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Specify the location or address for 'Panadol'""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Specify the location or address for 'Panadol'""}"
+"2025-08-27T01:21:01","deepseek/deepseek-r1","Go to the foldable chair for medicine","14.308","1","86","367","453","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""No coordinates provided for 'foldable chair for medicine' and unclear relationship between chair and medicine location""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""No coordinates provided for 'foldable chair for medicine' and unclear relationship between chair and medicine location""}"
+"2025-08-27T01:21:13","deepseek/deepseek-r1","Go to the foldable chair for medicine","11.981","1","87","238","325","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The foldable chair's location coordinates are not specified.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The foldable chair's location coordinates are not specified.""}"
+"2025-08-27T01:21:26","deepseek/deepseek-r1","Go to the foldable chair for medicine","13.111","1","87","238","325","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location of the foldable chair for medicine is not specified.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location of the foldable chair for medicine is not specified.""}"
+"2025-08-27T01:21:35","deepseek/deepseek-r1","Go to the foldable chair for medicine","9.109","1","86","347","433","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""Destination unclear. Is the foldable chair a specific location? Provide coordinates or clarify relation to medicine.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""Destination unclear. Is the foldable chair a specific location? Provide coordinates or clarify relation to medicine.""}"
+"2025-08-27T01:21:51","deepseek/deepseek-r1","Go to the foldable chair for medicine","16.179","1","87","349","436","{""intent"": ""clarify"", ""goal"": {""x"": 0, ""y"": 0}, ""note"": ""The location of the foldable chair for medicine is unspecified. Please provide more details or clarify the target.""}","{""intent"":""clarify"",""goal"":{""x"":0,""y"":0},""note"":""The location of the foldable chair for medicine is unspecified. Please provide more details or clarify the target.""}"

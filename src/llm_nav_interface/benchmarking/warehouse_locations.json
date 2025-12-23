@@ -1,0 +1,8 @@
+{
+  "charging station": [0.0, 0.0],
+  "docking station": [1.0, -0.5],
+  "table": [-12.7, 6.5],
+  "shelf near entry": [3.5, 9.5],
+  "person standing": [1.0, -1.0],
+  "foldable chair": [-11.5, 6.4]
+}
