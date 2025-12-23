@@ -25,10 +25,6 @@ This is one of the first reproducible multi-LLM + multi-planner benchmarks in a 
 │   ├── success/
 │   ├── tokens/
 │   └── planner_comparison/
-├── docs/
-│   ├── project_proposal.pdf
-│   ├── literature_review.pdf
-│   └── sensors_paper_draft.pdf
 └── README.md
 ```
 
