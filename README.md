@@ -65,17 +65,8 @@ export OPENROUTER_API_KEY=your_key
 export GROQ_API_KEY=your_key
 
 ▶️ Running the System
-1. Launch TurtleBot4 simulation
-ros2 launch turtlebot4_gazebo turtlebot4_world.launch.py
 
-2. Start Nav2
-ros2 launch nav2_bringup navigation_launch.py
-
-3. Run the LLM Benchmark
-python3 src/llm_interface/benchmark_openrouter.py
-
-4. Send a natural-language command
-ros2 topic pub /nl_command std_msgs/String "Go to the table near the window"
+Please refer to SimulationInstructionsforROS.pdf
 
 📊 Benchmarking Metrics
 ✔ LLM Latency
@@ -126,3 +117,6 @@ Success plots
 Token usage reports
 
 Planner comparison metrics
+
+
+
